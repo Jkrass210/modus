@@ -1,0 +1,16 @@
+.logo {
+  min-width: 134px;
+  display: flex;
+  &__link {
+    display: flex;
+    &:focus {
+      outline: none;
+    }
+    &:focus-visible {
+      outline: 1px solid var(--accent-2);
+    }
+  }
+  &__img {
+    padding-bottom: 10px;
+  }
+}

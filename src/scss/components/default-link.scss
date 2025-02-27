@@ -1,0 +1,33 @@
+.default-link {
+  border-radius: 14px;
+  border: 1px solid var(--white);
+  padding: 19px;
+  width: 100%;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-shadow: -1px 3px 6px 0 rgba(0, 0, 0, 0.04), -3px 11px 11px 0 rgba(0, 0, 0, 0.03), -7px 24px 15px 0 rgba(0, 0, 0, 0.02), -13px 43px 18px 0 rgba(0, 0, 0, 0.01), -20px 68px 20px 0 rgba(0, 0, 0, 0);
+  background: linear-gradient(355deg, #723aa9 0%, #1de1d3 100%);
+  transition: border-color 0.4s ease-in-out;
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  &:focus,&:focus-visible {
+    outline: none;
+  }
+  &:focus-visible,&:hover,&:active {
+    border-color: transparent;
+  }
+  .text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--white);
+  }
+  svg {
+    color: var(--accent-4);
+  }
+}

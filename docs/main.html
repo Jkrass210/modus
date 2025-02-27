@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная страница - modus</title>
+  <link href="css/normalize.min.css" rel="stylesheet">
+  <link href="css/swiper-bundle.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+
+  <script src="js/swiper-bundle.min.js" defer></script>
+  <script src="js/swiper-bundle.min.js.map" defer></script>
+  <script src="js/fslightbox-min.js" defer></script>
+  <script type="module" src="js/main-min.js"></script>
+</head>
+<body>
+  <header class="header" id="header">
+  <div class="header__container container">
+    <div class="header__content">
+      <div class="logo">
+  <a class="logo__link" href="/">
+    <img class="logo__img" src="img/logo/Logo.svg" style="filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.25));">
+  </a>
+</div>
+      <nav class="header-nav" id="headerNav">
+  <ul class="header-nav__list list-reset">
+     <li>
+      <a href="#" class="header-nav__link">
+        Продукты
+      </a>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Преимущества
+      </a>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Кейсы
+      </a>
+    </li>
+    <li>
+      <div class="drop-down1">
+  <a href="#" class="drop-down1__btn btn-reset">
+    <span>Полезные материалы</span>
+    <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
+      <use xlink:href="img/sprite.svg#arrowDropDown1"></use>
+    </svg>
+  </a>
+  <ul class="drop-down1__list list-reset">
+    <li>
+      <a href="#" class="drop-down1__link">
+        База знаний
+      </a>
+    </li>
+    <li>
+      <a href="#" class="drop-down1__link">
+        Новости
+      </a>
+    </li>
+  </ul>
+</div>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Партнерство
+      </a>
+    </li>
+    <li>
+      <div class="drop-down1 drop-down1-2">
+  <a href="#" class="drop-down1__btn btn-reset">
+    <span>О компании</span>
+    <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
+      <use xlink:href="img/sprite.svg#arrowDropDown1"></use>
+    </svg>
+  </a>
+  <ul class="drop-down1__list list-reset">
+    <li>
+      <a href="#" class="drop-down1__link">
+        Награды
+      </a>
+    </li>
+    <li>
+      <a href="#" class="drop-down1__link">
+        Рекомендательные письма
+      </a>
+    </li>
+    <li>
+      <a href="#" class="drop-down1__link">
+        Контакты
+      </a>
+    </li>
+  </ul>
+</div>
+    </li>
+    <!-- Контейнер для скрытых пунктов -->
+    <li class="menu__more hidden">
+      <button class="menu__toggle btn-reset">
+        ...
+      </button>
+      <ul class="menu__hidden list-reset"></ul>
+    </li>
+  </ul>
+</nav>
+      <div class="header__btn-group">
+        <div class="search1">
+  <button class="search1__btn btn-reset">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <use xlink:href="img/sprite.svg#search"></use>
+    </svg>
+  </button>
+  <div class="search1__box">
+    <div class="search1__container container">
+      <form class="search1__form">
+        <input class="default-input" type="text" placeholder="Поиск по Базе знаний Modus BI">
+        <button class="search1__sabmit btn-reset">
+          <span>Искать</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+        <div class="phone">
+  <button class="phone__btn btn-reset">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <use xlink:href="img/sprite.svg#phone"></use>
+    </svg>
+  </button>
+  <div class="phone__box">
+    <p>+79829923366</p>
+  </div>
+</div>
+        <div class="phone-mob">
+  <a href="tel:+79829926346" class="phone-mob__link">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <use xlink:href="img/sprite.svg#phone"></use>
+    </svg>
+  </a>
+</div>
+        <a class="order-demo btn-reset">
+  <span class="order-demo__text">Заказать демо</span>
+  <span class="order-demo__svg-box">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <use xlink:href="img/sprite.svg#demo"></use>
+    </svg>
+  </span>
+</a>
+      </div>
+    </div>
+  </div>
+</header>
+  <main class="main">
+    <section class="box-briefcase section">
+  <div class="box-briefcase__container container">
+    <h2 class="box-briefcase__title section-title">
+      Портфель продуктов Modus
+    </h2>
+    <ul class="box-briefcase__list list-reset">
+      <li>
+        <div class="card1">
+  <div class="card1__top-wrapp">
+    <div class="card1__top-box">
+      <h3 class="card1__title">
+        Modus BI
+      </h3>
+      <p class="card1__desc">
+        Платформа для бизнес-аналитики
+      </p>
+      <p class="card1__price">
+        от 1 000 000 ₽
+      </p>
+    </div>
+    <img class="card1__img" src="img/main/briefcase/1.png">
+  </div>
+  <a href="#" class="default-link card1__link">
+    <span class="text">
+      Подробнее о продукте
+    </span>
+    <svg width="19" height="19" viewBox="0 0 19 19" fill="none">
+      <use xlink:href="img/sprite.svg#arrowBtn22"></use>
+    </svg>
+  </a>
+</div>
+      </li>
+      <li>
+        <div class="card1">
+  <div class="card1__top-wrapp">
+    <div class="card1__top-box">
+      <h3 class="card1__title">
+        Modus ETL
+      </h3>
+      <p class="card1__desc">
+        Решение для управления ETL-процессами и Data Quality Management
+      </p>
+      <p class="card1__price">
+        от 1 000 000 ₽
+      </p>
+    </div>
+    <img class="card1__img" src="img/main/briefcase/2.png">
+  </div>
+  <a href="#" class="default-link card1__link">
+    <span class="text">
+      Подробнее о продукте
+    </span>
+    <svg width="19" height="19" viewBox="0 0 19 19" fill="none">
+      <use xlink:href="img/sprite.svg#arrowBtn22"></use>
+    </svg>
+  </a>
+</div>
+      </li>
+      <li>
+        <div class="card1">
+  <div class="card1__top-wrapp">
+    <div class="card1__top-box">
+      <h3 class="card1__title">
+        Modus BI Cloud
+      </h3>
+      <p class="card1__desc">
+        Облачная версия нашей BI-системы
+      </p>
+      <p class="card1__price">
+        Бесплатно
+      </p>
+    </div>
+    <img class="card1__img" src="img/main/briefcase/3.png">
+  </div>
+  <a href="#" class="default-link card1__link">
+    <span class="text">
+      Подробнее о продукте
+    </span>
+    <svg width="19" height="19" viewBox="0 0 19 19" fill="none">
+      <use xlink:href="img/sprite.svg#arrowBtn22"></use>
+    </svg>
+  </a>
+</div>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="box-why__section section">
+  <div class="box-why__contaoner container">
+    <h2 class="box-why__title section-title">
+      Почему выбирают Modus
+    </h2>
+    <div class="box-why__content">
+      <ul class="box-why__list list-reset">
+        <li>
+          <div class="card2">
+  <div class="card2__box-img">
+    <img src="img/main/why/1.svg" alt="img">
+  </div>
+  <div class="card2__box-info">
+    <h3 class="card2__title">
+      Визуализация данных
+    </h3>
+    <p class="card2__desc">
+      Проектируйте отчеты в визуальном конструкторе в несколько кликов без программирования.
+    </p>
+  </div>
+</div>
+        </li>
+        <li>
+          <div class="card2">
+  <div class="card2__box-img">
+    <img src="img/main/why/2.svg" alt="img">
+  </div>
+  <div class="card2__box-info">
+    <h3 class="card2__title">
+      Работа с разными данными в одном источнике
+    </h3>
+    <p class="card2__desc">
+      Загружайте и визуализируйте информацию из различных источников — достаточно загрузить файл или подключить базу данных. С режимами Drill-Down, Drill-Up и Drill-Through вы можете просматривать различные срезы аналитики.
+    </p>
+  </div>
+</div>
+        </li>
+        <li>
+          <div class="card2">
+  <div class="card2__box-img">
+    <img src="img/main/why/3.svg" alt="img">
+  </div>
+  <div class="card2__box-info">
+    <h3 class="card2__title">
+      Экономия времени с шаблонами
+    </h3>
+    <p class="card2__desc">
+      Готовьте коннекторы с 1C, Google Таблицами и другими ресурсами ускоряют работу и сохраняют данные актуальными. Шаблоны отчетов для разных сфер бизнеса помогут легко настроить дашборд, даже если вы занимаетесь этим впервые.
+    </p>
+  </div>
+</div>
+        </li>
+        <li>
+          <div class="card2">
+  <div class="card2__box-img">
+    <img src="img/main/why/4.svg" alt="img">
+  </div>
+  <div class="card2__box-info">
+    <h3 class="card2__title">
+      Настройка дашбордов под себя
+    </h3>
+    <p class="card2__desc">
+      Элементы и интерфейс Modus BI Cloud легко настроить. Если необходим дополнительный функционал, вы можете доработать дашборд или виджет. Для этого отправьте нам ТЗ на индивидуальную разработку или допишите нужный код.
+    </p>
+  </div>
+</div>
+        </li>
+        <li>
+          <div class="card2">
+  <div class="card2__box-img">
+    <img src="img/main/why/5.svg" alt="img">
+  </div>
+  <div class="card2__box-info">
+    <h3 class="card2__title">
+      Профессиональная поддержка
+    </h3>
+    <p class="card2__desc">
+      Хотя интерфейс интуитивно понятен, вы всегда можете воспользоваться нашей базой знаний, видеоуроками или задать вопрос специалистам. В отличие от других компаний, мы не вводим ограничения на услуги технической поддержки.
+    </p>
+  </div>
+</div>
+        </li>
+        <li>
+          <div class="card2">
+  <div class="card2__box-img">
+    <img src="img/main/why/6.svg" alt="img">
+  </div>
+  <div class="card2__box-info">
+    <h3 class="card2__title">
+      Экономия ресурсов для принятия решений
+    </h3>
+    <p class="card2__desc">
+      Понятный интерфейс и наглядная связь данных и таблиц помогают самостоятельно проводить аналитику данных с любой детализацией. Вам не нужно привлекать разработчиков или тратить много времени на разворачивание программы.
+    </p>
+  </div>
+</div>
+        </li>
+      </ul>
+      <div class="box-why__btn-wrapp">
+        <button class="default-btn box-why__btn btn-reset">
+          <span class="text">
+            Подобрать решение
+          </span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="box-order-demo__section section">
+  <div class="box-order-demo__container container">
+    <h2 class="box-order-demo__title section-title">
+      Оцените, как легко работать с данными с помощью Modus. Бесплатно
+    </h2>
+    <div class="box-order-demo__content">
+      <p class="box-order-demo__desc">
+        Узнайте все возможности аналитической платформы. Заполните форму, и с вами свяжутся наши специалисты.
+      </p>
+      <div class="box-order-demo__btn-wrapp">
+        <button class="box-order-demo__btn default-btn btn-reset">
+          <span class="text">
+            Заказать демо
+          </span>
+          <svg width="19" height="19" viewBox="0 0 19 19" fill="none">
+            <use xlink:href="img/sprite.svg#orderDemo"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer" id="footer">
+  <div class="footer-top-box">
+  <div class="footer-top-box__container container">
+    <div class="footer-top-box__left left">
+      <form class="left__form">
+        <h3 class="left__form-title">
+          Есть вопросы? Спросите нас!
+        </h3>
+        <input class="default-input" type="text" name="fio" placeholder="ФИО*">
+        <input class="default-input" type="text" name="company" placeholder="Компания*">
+        <input class="default-input" type="text" name="business-mail" placeholder="Рабочая почта*">
+        <input class="default-input" type="text" name="business-mail" placeholder="Телефон">
+        <div class="drop-down2">
+  <input class="default-input" type="text" name="product" placeholder="Какой продукт Вас заинтересовал?*">
+  <button class="drop-down2__btn btn-reset">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <use xlink:href="img/sprite.svg#arrowDropDown2"></use>
+    </svg>
+  </button>
+  <ul class="drop-down2__list list-reset">
+    <li class="drop-down2__item">fffffff</li>
+    <li class="drop-down2__item">33333333 sddv srrgs sefew</li>
+    <li class="drop-down2__item">ddddd sdvs sefwev seegweg seegwg srgewr</li>
+  </ul>
+</div>
+        <textarea class="default-textarea"  placeholder="Кратко опишите свой вопрос" style="resize: none;"></textarea>
+        <div class="left__group">
+          <div class="checkbox1">
+  <label class="checkbox1__label">
+    <input type="checkbox" name="personal_data">
+    <span class="checkbox1__castom">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.5 10L8.5 13L14.5 7M5.8" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </span>
+    <span class="checkbox1__text">Я согласен на <a href="#">обработку персональных данных</a></span>
+  </label>
+</div>
+          <button class="form-submit btn-reset disabled">
+  <span class="form-submit__text">Отправить</span>
+  <svg width="24" height="23" viewBox="0 0 24 23" fill="none">
+    <use xlink:href="img/sprite.svg#arrowSubmit"></use>
+  </svg>
+</button>
+        </div>
+      </form>
+    </div>
+    <div class="footer-top-box__right right">
+      <img class="right__img" src="img/footer/top/img-form.png">
+    </div>
+  </div>
+</div>
+  <div class="footer-centr-box">
+  <div class="footer-centr-box__container container">
+    <div class="footer-centr-box__left left">
+      <h3 class="left__title">
+        Контакты
+      </h3>
+      <ul class="left__list list-reset">
+        <li>
+          <div class="left__info-box">
+            <h4>Компания</h4>
+            <a href="tel:+74951182814">+7 (495) 118-28-14</a>
+            <a href="mailto:post@modusbi.ru">post@modusbi.ru</a>
+          </div>
+        </li>
+        <li>
+          <div class="left__info-box">
+            <h4>Компания</h4>
+            <a href="tel:+74951182814">+7 (495) 118-28-14</a>
+            <a href="mailto:post@modusbi.ru">post@modusbi.ru</a>
+          </div>
+        </li>
+        <li>
+          <div class="left__info-box">
+            <h4>Реквизиты</h4>
+            <address>
+              <p>ООО «БиАй Про», 115114, г Москва, 2-й Кожевнический переулок, д. 12, стр. 2</p>
+            </address>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-centr-box__right right">
+      <div class="right__group">
+        <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-канал
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+        <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-чат
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+      </div>
+      <p class="right__desc">
+        Подпишись и узнавай первым о новостях продуктов Modus
+      </p>
+      <div class="right__box-blog">
+        <h3>Наши блоги</h3>
+        <ul class="list-reset">
+          <li>
+            <a href="#">
+              <span class="img-box">
+                <img src="img/footer/centr/blog-1.png">
+              </span>
+              <span class="text">
+                Habr
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="img-box">
+                <img src="img/footer/centr/blog-2.png">
+              </span>
+              <span class="text">
+                VC
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="footer-bottom-box">
+  <div class="footer-bottom-box__container container">
+    <ul class="footer-bottom-box__list-top list-reset">
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Modus BI</a>
+          </li>
+          <li>
+            <a href="#">Modus ETL</a>
+          </li>
+          <li>
+            <a href="#">Modus BI Cloud</a>
+          </li>
+          <li>
+            <a href="#">Преимущества</a>
+          </li>
+          <li>
+            <a href="#">Кейсы</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Партнёрство</a>
+          </li>
+          <li>
+            <a href="#">Внедрение с помощью партнёров</a>
+          </li>
+          <li>
+            <a href="#">Как стать партнёром</a>
+          </li>
+          <li>
+            <a href="#">Личный кабинет партнёра</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Промышленность</a>
+          </li>
+          <li>
+            <a href="#">E-commerce</a>
+          </li>
+          <li>
+            <a href="#">Ритейл и FMGG</a>
+          </li>
+          <li>
+            <a href="#">Госкомпании</a>
+          </li>
+          <li>
+            <a href="#">Финтех</a>
+          </li>
+          <li>
+            <a href="#">Медицина</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Полезные материалы</a>
+          </li>
+          <li>
+            <a href="#">База знаний</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p class="footer-bottom-box__desc">
+      © ООО «БиАй Про», актуальный год. Все права защищены.
+    </p>
+  </div>
+</div>
+</footer>
+</body>
+</html>

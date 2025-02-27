@@ -1,0 +1,49 @@
+.checkbox1 {
+  &__label {
+    cursor: pointer;
+    display: flex;
+    gap: 13px;
+    align-items: end;
+
+    input {
+      width: 0;
+      height: 0;
+      position: absolute;
+      &:checked + .checkbox1__castom {
+        svg {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  &__castom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    border: 2px solid var(--black-1);
+    svg {
+      opacity: 0;
+      transition: opacity 0.4s ease-in-out;
+    }
+  }
+  &__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90%;
+    color: var(--black-1);
+    a {
+      color: var(--accent-3);
+      transition: color 0,4s ease-in-out;
+      &:focus,&:focus-visible {
+        outline: none;
+      }
+      &:focus-visible,&:hover,&:active {
+        color: var(--accent-2);
+      }
+    }
+  }
+}

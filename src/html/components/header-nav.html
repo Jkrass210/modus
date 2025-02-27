@@ -1,0 +1,37 @@
+<nav class="header-nav" id="headerNav">
+  <ul class="header-nav__list list-reset">
+     <li>
+      <a href="#" class="header-nav__link">
+        Продукты
+      </a>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Преимущества
+      </a>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Кейсы
+      </a>
+    </li>
+    <li>
+      @@include('./drop-down1.html')
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Партнерство
+      </a>
+    </li>
+    <li>
+      @@include('./drop-down1-2.html')
+    </li>
+    <!-- Контейнер для скрытых пунктов -->
+    <li class="menu__more hidden">
+      <button class="menu__toggle btn-reset">
+        ...
+      </button>
+      <ul class="menu__hidden list-reset"></ul>
+    </li>
+  </ul>
+</nav>

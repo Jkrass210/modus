@@ -1,0 +1,15 @@
+.box-why {
+  &__list {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  &__btn-wrapp {
+    display: flex;
+    justify-content: center;
+  }
+  &__btn {
+    max-width: 440px;
+  }
+}

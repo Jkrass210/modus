@@ -1,0 +1,22 @@
+.phone-mob {
+  display: none;
+  &__link {
+    color: var(--black);
+    display: flex;
+    transition: color 0.4s ease-in-out;
+
+    &:focus,&:focus-visible {
+      outline: none;
+    }
+
+    &:focus-visible,&:hover,&:active {
+      color: var(--accent-2);
+    }
+  }
+}
+
+@media (max-width: 1030px) {
+  .phone-mob {
+    display: flex;
+  }
+}

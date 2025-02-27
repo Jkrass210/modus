@@ -1,0 +1,48 @@
+.phone {
+  display: flex;
+  position: relative;
+  &__btn {
+    display: flex;
+    color: var(--black);
+    transition: color 0.4s ease-in-out;
+    &.active {
+      & + .phone__box {
+        visibility: visible;
+        opacity: 1;
+        z-index: 1;
+      }
+    }
+    &:focus,&:focus-visible {
+      outline: none;
+    }
+    &:focus-visible,&:hover,&:active {
+      color: var(--accent-2);
+    }
+  }
+  &__box {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    width: auto;
+    border-radius: 10px;
+    padding: 15px;
+    position: absolute;
+    right: 100%;
+    transform: translate(-5px, -5px);
+    background-color: var(--white);
+    transition: visibility 0.4s ease-in-out, opacity 0.4s ease-in-out, z-index 0.4s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.09), 0 0 10px rgba(0, 0, 0, 0.05);
+    p {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      color: var(--black);
+    }
+  }
+}
+
+@media (max-width: 1030px) {
+  .phone {
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.box-order-demo {
+  &__section {
+    padding: 100px 0;
+    background-image: url('../img/box-order-demo/1.png'), url('../img/box-order-demo/2.png');
+    background-position: left, right;
+    background-size: 400px 100%, 400px 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-color: var(--white);
+  }
+  &__title {
+    margin: 0 auto 20px;
+    max-width: 915px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+  }
+  &__desc {
+    margin: auto;
+    max-width: 580px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--black);
+  }
+  &__btn-wrapp {
+    display: flex;
+    justify-content: center;
+  }
+  &__btn {
+    max-width: 310px;
+  }
+}

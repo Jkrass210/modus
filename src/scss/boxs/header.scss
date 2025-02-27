@@ -1,0 +1,14 @@
+.header {
+  padding: 20px 0;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  &__btn-group {
+    display: flex;
+    align-items: center;
+    gap: clamp(7px, 2vw, 30px);
+  }
+}

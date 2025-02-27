@@ -1,0 +1,41 @@
+.footer-bottom-box {
+  padding: 100px 0 60px;
+  background: var(--body);
+  mix-blend-mode: multiply;
+  &__list-top {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    li {
+      a {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        color: var(--black);
+        transition: color 0.4s ease-in-out;
+        &:focus,&:focus-visible {
+          outline: none;
+        }
+        &:focus-visible,&:hover,&:active {
+          color: var(--accent-2);
+        }
+      }
+    }
+  }
+  &__desc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    opacity: 0.5;
+    color: var(--black);
+  }
+}

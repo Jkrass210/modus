@@ -1,0 +1,12 @@
+.box-briefcase {
+  &__list {
+    display: flex;
+    gap: calc(40 / 1400 * 100%);
+    row-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.card2 {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  background-color: var(--white);
+  &__box-img {
+    margin-bottom: 40px;
+    display: flex;
+  }
+  &__box-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--black);
+  }
+  &__desc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--black);
+  }
+}

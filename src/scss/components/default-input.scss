@@ -1,0 +1,19 @@
+.default-input {
+  width: 100%;
+  padding: 20px 24px;
+  border-radius: 14px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--black);
+  border: 1px solid var(--body);
+  background-color: var(--input);
+  transition: border-color 0.4s ease-in-out;
+  &:focus,&:focus-visible {
+    outline: none;
+  }
+  &:focus-visible,&:hover,&:active {
+    border-color: var(--input);
+  }
+}

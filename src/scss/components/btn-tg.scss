@@ -1,0 +1,25 @@
+.btn-tg {
+  flex: 1;
+  border-radius: 14px;
+  padding: 19px;
+  background: linear-gradient(355deg, #723aa9 0%, #1de1d3 100%);
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid var(--body);
+  transition: border-color 0.4s ease-in-out;
+  &:focus,&:focus-visible {
+    outline: none;
+  }
+  &:focus-visible,&:hover,&:active {
+    border-color: transparent;
+  }
+  &__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--white);
+  }
+}

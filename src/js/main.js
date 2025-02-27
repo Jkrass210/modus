@@ -30,11 +30,11 @@ if (document.querySelectorAll('.main-swiper__swiper, .box-need__swiper')) {
       fadeEffect: {
         crossFade: true // Плавное исчезновение предыдущего слайда
       },
-      /*autoplay: {
+      autoplay: {
         delay: 3000, // Задержка перед переключением
         disableOnInteraction: false, // Не останавливать при взаимодействии
         pauseOnMouseEnter: true, // Останавливать при наведении
-      },*/
+      },
       slidesPerView: 1,
       navigation: {
         nextEl: swiperEl.querySelector('.main-swiper__prev, .box-need__prev'),

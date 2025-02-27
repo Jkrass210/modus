@@ -2,8 +2,6 @@ export function boxPoints() {
   window.addEventListener("load", () => {
     const separators = document.querySelectorAll(".box-points__list li");
 
-    console.log(separators)
-
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {

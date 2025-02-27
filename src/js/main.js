@@ -23,13 +23,13 @@ if (document.querySelector('.left__form' && '.form-submit')) {
   validateForm('.left__form')
 }
 
-if (document.querySelectorAll('.main-swiper__swiper')) {
-  document.querySelectorAll('.main-swiper__swiper').forEach(swiperEl => {
+if (document.querySelectorAll('.main-swiper__swiper, .box-need__swiper')) {
+  document.querySelectorAll('.main-swiper__swiper, .box-need__swiper').forEach(swiperEl => {
     new Swiper(swiperEl, {
       effect: 'fade', // Меняем эффект слайдов на исчезновение/появление
-        fadeEffect: {
-            crossFade: true // Плавное исчезновение предыдущего слайда
-        },
+      fadeEffect: {
+        crossFade: true // Плавное исчезновение предыдущего слайда
+      },
       /*autoplay: {
         delay: 3000, // Задержка перед переключением
         disableOnInteraction: false, // Не останавливать при взаимодействии
@@ -37,13 +37,13 @@ if (document.querySelectorAll('.main-swiper__swiper')) {
       },*/
       slidesPerView: 1,
       navigation: {
-        nextEl: swiperEl.querySelector('.main-swiper__prev'),
-        prevEl: swiperEl.querySelector('.main-swiper__next'),
+        nextEl: swiperEl.querySelector('.main-swiper__prev, .box-need__prev'),
+        prevEl: swiperEl.querySelector('.main-swiper__next, .box-need__next'),
       },
     });
   });
-  
 }
+
 
 if (document.querySelector('.box-points')) {
   boxPoints()

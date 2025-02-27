@@ -1,0 +1,8 @@
+.box-need {
+  &__section {
+    .swiper-slide {
+      height: auto;
+      box-sizing: border-box;
+    }
+  }
+}

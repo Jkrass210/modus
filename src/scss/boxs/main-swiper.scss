@@ -1,0 +1,9 @@
+.main-swiper {
+  margin-bottom: 170px;
+  &__container {
+    position: relative;
+  }
+  .swiper-slide {
+    box-sizing: border-box;
+  }
+}

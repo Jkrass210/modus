@@ -1,0 +1,21 @@
+.card3 {
+  height: 100%;
+  border-radius: 14px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--white);
+  &__box-img {
+    display: flex;
+  }
+  &__box-info {
+    h3 {
+      max-width: 485px;
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 24px;
+      color: var(--black);
+    }
+  }
+}

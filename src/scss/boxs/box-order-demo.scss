@@ -34,3 +34,15 @@
     max-width: 310px;
   }
 }
+
+.box-order-demo-2 {
+  background-image: url('../img/box-order-demo/3.png'), url('../img/box-order-demo/4.png');
+  background-size: 400px 100%, 400px 100%;
+
+  .box-order-demo {
+    &__title {
+      max-width: 100%;
+    }
+  }
+  
+}

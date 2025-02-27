@@ -1,0 +1,35 @@
+.btn-swiper {
+  position: absolute;
+  z-index: 3;
+  transform: translate(0, -50%);
+  top: 50%;
+  border-radius: 10px;
+  width: 39px;
+  min-width: 39px;
+  height: 39px;
+  border: 1px solid var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-3);
+  color: var(--white);
+  transition: border-color 0.4s ease-in-out, background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  &.left {
+    left: 50px;
+  }
+  &.right {
+    right: 50px;
+  }
+  &.swiper-button-disabled {
+    pointer-events: none;
+    background-color: var(--white);
+    border-color: var(--accent-3);
+    color: var(--accent-3);
+  }
+  &:focus,&:focus-visible {
+    outline: none;
+  }
+  &:focus-visible,&:hover,&:active {
+    border-color: var(--accent-3);
+  }
+}

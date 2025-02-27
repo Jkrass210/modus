@@ -1,13 +1,32 @@
 <section class="section main-swiper">
   <div class="main-swiper__container container">
     <div class="main-swiper__swiper swiper">
+      @@include('../components/btn-swiper-left.html',{"class":"main-swiper__next"})
       <ul class="main-swiper__swiper-wrapper swiper-wrapper list-reset">
-        <li class="swiper-slide"></li>
-        <li class="swiper-slide"></li>
-        <li class="swiper-slide"></li>
-        <li class="swiper-slide"></li>
-        <li class="swiper-slide"></li>
+        <li class="swiper-slide">
+          @@include('../components/card4-1.html')
+        </li>
+        <li class="swiper-slide">
+          @@include('../components/card4.html',{"title":"Управляйте бизнесом на основе данных. Попробуйте продукты Modus","desc":"Современный бизнес требует точного, быстрого и безопасного управления данными. Наш продукт поможет вам организовать, анализировать и оптимизировать работу с данными без сложностей.","btn":"Заказать демо","urlImg":"img/main-swiper/2.png"})
+        </li>
+        <li class="swiper-slide">
+          @@include('../components/card4.html',{"title":"Платформа для бизнес-аналитики","desc":"Создавайте дашборды, находите зависимости и прогнозируйте тренды","btn":"Подробнее о продукте","urlImg":"img/main-swiper/3.png"})
+        </li>
+        <li class="swiper-slide">
+          @@include('../components/card4.html',{"title":"Решение для управления ETL-процессами и Data Quality Management","desc":"Собирайте, нормализуйте данные из разных источников и создавайте корпоративное хранилище данных","btn":"Подробнее о продукте","urlImg":"img/main-swiper/4.png"})
+        </li>
+        <li class="swiper-slide">
+          @@include('../components/card4.html',{"title":"Облачная версия нашей BI-системы","desc":"Визуализируйте данные и создавайте прогнозы без установки дорогостоящих сервисов","btn":"Подробнее о продукте","urlImg":"img/main-swiper/5.png"})
+        </li>
+        <li class="swiper-slide">
+          @@include('../components/card4.html',{"title":"Более 10 лет мы внедряем системы управления данными","desc":"В промышленные и финансовые компании, госсектор и ритейл","btn":"Все клиенты","urlImg":"img/main-swiper/6.png"})
+        </li>
+        <li class="swiper-slide">
+          @@include('../components/card4.html',{"title":"Актуальные тематические статьи, анонсы мероприятий и новости компании","desc":"Еженедельные публикации с полезными материалами, чтобы Вы ничего не пропустили","btn":"Читать новости","urlImg":"img/main-swiper/7.png"})
+        </li>
       </ul>
+      @@include('../components/btn-swiper-right.html',{"class":"main-swiper__prev"})
     </div>
+    @@include('./box-points.html')
   </div>
 </section>

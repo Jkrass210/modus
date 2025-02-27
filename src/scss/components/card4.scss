@@ -1,0 +1,44 @@
+.card4 {
+  position: relative;
+  min-height: 695px;
+  padding: 90px 130px;
+  border-radius: 40px;
+  background-image: url("../img/main-swiper/beacOne.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: var(--white);
+  &__info {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 58px;
+    color: var(--black);
+  }
+  &__desc {
+    max-width: 860px;
+    margin-bottom: 37px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--black);
+  }
+  &__link-wrapp {
+    display: flex;
+  }
+  &__link {
+    padding-left: 29px;
+    padding-right: 29px;
+    width: auto;
+  }
+  &__img {
+    position: absolute;
+    left: 50%;
+    bottom: 68px;
+    transform: translate(-50%, 0);
+  }
+}

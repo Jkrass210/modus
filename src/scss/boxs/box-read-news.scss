@@ -1,0 +1,38 @@
+.box-read-news {
+  &__content {
+    overflow: hidden;
+    position: relative;
+    border-radius: 14px;
+    padding: 70px;
+    display: flex;
+    background-color: var(--white);
+    .left {
+      position: relative;
+      width: calc(580 / 1260 * 100%);
+      z-index: 3;
+      &__title {
+        margin-bottom: 40px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 48px;
+        color: var(--black);
+      }
+      &__desc {
+        margin-bottom: 40px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 145%;
+        color: var(--black);
+      }
+      &__btn {
+        max-width: 310px;
+      }
+    }
+    img {
+      position: absolute;
+      inset: auto 0 0 auto;
+      object-fit: cover;
+    }
+  }
+}

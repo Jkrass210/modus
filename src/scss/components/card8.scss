@@ -1,0 +1,36 @@
+.cadr8 {
+  padding: 20px;
+  height: 100%;
+  border-radius: 16px;
+  background-color: var(--white);
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  &__title {
+    margin-bottom: 6px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: var(--black);
+  }
+  &__desc {
+    margin-bottom: 23px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--black);
+  }
+  &__last-desc {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: var(--black);
+  }
+}

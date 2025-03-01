@@ -1,0 +1,29 @@
+.box-swiper {
+  &__content {
+    position: relative;
+    .swiper-slide {
+      height: auto;
+      box-sizing: border-box;
+    }
+    .btn-swiper.left {
+      left: 0;
+    }
+    .btn-swiper.right{
+      right: 0;
+    }
+    .btn-swiper {
+      border-color: var(--body);
+      &.swiper-button-disabled {
+        border-color: var(--accent-3);
+      }
+      &:focus-visible,&:hover,&:active {
+        border-color: var(--accent-3);
+      }
+    }
+  }
+  &__swiper {
+    border-radius: 14px;
+    margin: auto;
+    max-width: 1240px;
+  }
+}

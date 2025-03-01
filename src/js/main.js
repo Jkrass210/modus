@@ -2,6 +2,8 @@ import { menu } from './module/menu.js';
 import { initDropdowns } from './module/initDropdowns.js';
 import { validateForm } from './module/validateForm.js';
 import { boxPoints } from './module/boxPoints.js';
+import { dropDown3 } from './module/dropDown3.js';
+import { observeSvgChart, svgChart } from './module/svgChart.js';
 
 /*if (document.querySelector('#headerNav')){
   menu()
@@ -47,4 +49,44 @@ if (document.querySelectorAll('.main-swiper__swiper, .box-need__swiper')) {
 
 if (document.querySelector('.box-points')) {
   boxPoints()
+}
+
+if (document.querySelectorAll('.box-swiper')){
+  document.querySelectorAll(".box-swiper__content").forEach((swiperContainer, index) => {
+    const swiperElement = swiperContainer.querySelector(".box-swiper__swiper");
+    const nextButton = swiperContainer.querySelector(".box-swiper__next");
+    const prevButton = swiperContainer.querySelector(".box-swiper__prev");
+
+    const slidesPerView = swiperContainer.classList.contains("slide-4") ? 4 : 5;
+
+    new Swiper(swiperElement, {
+      slidesPerView: slidesPerView,
+      spaceBetween: 20,
+      /*effect: 'fade', // Меняем эффект слайдов на исчезновение/появление
+      fadeEffect: {
+        crossFade: true // Плавное исчезновение предыдущего слайда
+      },*/
+      autoplay: {
+        delay: 3000, // Задержка перед переключением
+        disableOnInteraction: false, // Не останавливать при взаимодействии
+        pauseOnMouseEnter: true, // Останавливать при наведении
+      },
+      navigation: {
+        nextEl: prevButton,
+        prevEl: nextButton,
+      },
+    });
+  });
+}
+
+if (document.querySelectorAll('.drop-down3')){
+  dropDown3()
+}
+
+if (document.querySelectorAll('.drop-down3')) {
+  initDropdowns(false, ".drop-down3__btn", ".drop-down3__box-desc")
+}
+
+if (document.querySelectorAll('#svgChart')) {
+  observeSvgChart()
 }

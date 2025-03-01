@@ -1,0 +1,26 @@
+.box-analytics {
+  &__title {
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 640px;
+  }
+  &__box-desc {
+    margin-bottom: 40px;
+  }
+  &__desc {
+    max-width: 514px;
+    margin: auto;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--black);
+  }
+  &__box-svg {
+    display: flex;
+    #svgChart {
+      border-radius: 14px;
+      background-color: var(--white);
+    }
+  }
+}

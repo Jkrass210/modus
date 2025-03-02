@@ -1,0 +1,40 @@
+.box-releases {
+  &__content {
+    position: relative;
+    padding: 70px;
+    display: flex;
+    background-color: var(--white);
+    border-radius: 14px;
+  }
+  &__left {
+    width: calc(710 / 1260 * 100%);
+  }
+  &__title {
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--black);
+  }
+  &__desc {
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: var(--black);
+    opacity: 0.8;
+  }
+  &__btn-wrapp {
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__btn {
+    max-width: 310px;
+  }
+  &__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/components/head.html',{"title":"Главная страница - modus"})
+<body>
+  @@include('html/boxs/header-default.html')
+  <main class="main">
+    <section class="advantages-section-1 section">
+      <div class="advantages-section-1__container container">
+        <div class="advantages-section-1__default-background default-background">
+          <div class="advantages-section-1__content">
+            <h1 class="advantages-section-1__title page-title">
+              Преимущества
+            </h1>
+            @@include('html/boxs/box-in-numbers.html')
+          </div>
+        </div>
+      </div>
+    </section>
+    @@include('html/boxs/box-order-demo-3.html')
+    @@include('html/boxs/box-why.html')
+    @@include('html/boxs/box-solutions.html')
+    @@include('html/boxs/box-releases.html')
+  </main>
+  @@include('html/boxs/footer.html')
+</body>
+</html>

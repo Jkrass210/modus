@@ -4,6 +4,7 @@ import { validateForm } from './module/validateForm.js';
 import { boxPoints } from './module/boxPoints.js';
 import { dropDown3 } from './module/dropDown3.js';
 import { observeSvgChart, svgChart } from './module/svgChart.js';
+import { counter } from './module/counter.js';
 
 /*if (document.querySelector('#headerNav')){
   menu()
@@ -89,4 +90,8 @@ if (document.querySelectorAll('.drop-down3')) {
 
 if (document.querySelectorAll('#svgChart')) {
   observeSvgChart()
+}
+
+if (document.querySelectorAll('.box-in-numbers__list') && document.querySelectorAll('.card10__counter')) {
+  counter()
 }

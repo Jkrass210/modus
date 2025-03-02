@@ -1,0 +1,59 @@
+.box-in-numbers {
+  padding: 70px;
+  background-color: var(--white);
+  border-radius: 14px;
+  &__title {
+    max-width: 890px;
+    margin-bottom: 37px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--black);
+  }
+  &__desc {
+    max-width: 890px;
+    margin-bottom: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: var(--black);
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    li {
+      position: relative;
+      flex: 1;
+      display: flex;
+      .card10 {
+        margin: auto;
+      }
+      &:first-child {
+        .card10 {
+          margin: auto auto auto 0;
+        }
+      }
+      &:last-child {
+        .card10 {
+          margin: auto 0 auto auto;
+        }
+        &::after {
+          display: none;
+        }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1px;
+        height: 100%;
+        background: rgba(52, 145, 247, 0.3);
+        //transform: scaleY(0);
+        transform-origin: left;
+        transition: transform 0.7s ease-in-out;
+      }
+    }
+  }
+}

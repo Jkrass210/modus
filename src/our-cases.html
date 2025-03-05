@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/components/head.html',{"title":"Наши кейсы"})
+<body>
+  @@include('html/boxs/header-default.html')
+  <main class="main">
+    <section class="our-cases-section-1 section">
+      <div class="our-cases-section-1__container container">
+        <div class="our-cases-section-1__default-background default-background">
+          <div class="our-cases-section-1__content">
+            <h1 class="our-cases-section-1__title page-title">
+              Наши кейсы
+            </h1>
+            <div class="our-cases-section-1__box-desc">
+              <p>
+                В этом разделе сайта мы собрали самые яркие кейсы.
+              </p>
+              <p>
+                Для того, чтобы увидеть кейсы только по интересующему вас продукту или бизнес-сфере воспользуйтесь фильтрами.
+              </p>
+            </div>
+            <div class="our-cases-section-1__wrapp-info">
+              @@include('html/boxs/filter.html')
+              @@include('html/boxs/box-cases.html')
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  @@include('html/boxs/footer.html')
+</body>
+</html>

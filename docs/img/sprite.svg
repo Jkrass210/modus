@@ -76,7 +76,7 @@
   </symbol>
 
   <symbol id="arrowSubmit" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M6.82627 17.2435L16.3133 7.75649M16.3133 7.75649H6.82627M16.3133 7.75649V17.2435" stroke="#1DE1D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M6.82627 17.2435L16.3133 7.75649M16.3133 7.75649H6.82627M16.3133 7.75649V17.2435" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
   </symbol>
 
   <symbol id="tg" width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,5 +85,19 @@
 
   <symbol id="arrowDetailed" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M7.32129 13.5L11.8213 9L7.32129 4.5" stroke="#1DE1D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <symbol id="arrowMoreColor" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6.82104 13.5L11.321 9L6.82104 4.5" stroke="url(#paint0_linear_17_1421)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <defs>
+      <linearGradient id="paint0_linear_17_1421" x1="9.0716" y1="13.5" x2="9.0716" y2="4.93296" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#1DE1D3" />
+        <stop offset="1" stop-color="#723AA9" />
+      </linearGradient>
+    </defs>
+  </symbol>
+
+  <symbol id="arrowMoreDown" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.57129 6.75L9.07129 11.25L13.5713 6.75" stroke="#1DE1D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
   </symbol>
 </svg>

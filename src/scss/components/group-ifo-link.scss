@@ -1,0 +1,33 @@
+.group-ifo-link {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--black);
+  }
+  &__link {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--black);
+    transition: color 0.4s ease-in-out;
+    &:focus,&:focus-visible {
+      outline: none;
+    }
+    &:focus-visible,&:hover,&:active {
+      color: var(--accent-2);
+    }
+  }
+  &__address {
+    font-style: normal;
+    p {
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 36px;
+      color: var(--black);
+    }
+  }
+}

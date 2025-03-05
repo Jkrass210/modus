@@ -1,0 +1,84 @@
+.card13 {
+  padding: 30px;
+  border-radius: 14px;
+  height: 100%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  justify-content: space-between;
+  &__box-img {
+    padding: 0 10px;
+  }
+  &__box-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--black);
+  }
+  &__desc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--black);
+  }
+  &__link {
+    min-height: 64px;
+    width: 100%;
+    padding: 21px 24px;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      padding: 1px;
+      border-radius: inherit;
+      background: linear-gradient(0deg, #1de1d3 0%, #723aa9 100%);
+      -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: destination-out;
+      mask-composite: exclude;
+    }
+    &:focus,&:focus-visible {
+      outline: none;
+    }
+    &:focus-visible,&:hover,&:active {
+      /*&::before {
+        background: var(--accent-4);
+      }
+      .text {
+        background: var(--accent-4);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      svg path{
+        stroke: var(--accent-4);
+      }*/
+    }
+    .text {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 18px;
+      background: linear-gradient(0deg, #1de1d3 0%, #723aa9 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

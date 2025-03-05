@@ -1,0 +1,36 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+
+  .search2 {
+    flex: 1;
+    input {
+      padding-right: 65px;
+      background-color: var(--white);
+      &:focus-visible,&:hover,&:active {
+        border-color: var(--white);
+      }
+    }
+    &__form {
+      position: relative;
+    }
+    &__btn {
+      position: absolute;
+      inset: 0 0 0 auto;
+      min-width: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent-3);
+      transition: color 0.4s ease-in-out;
+      &:focus,&:focus-visible {
+        outline: none;
+      }
+      &:focus-visible,&:hover,&:active {
+        color: var(--accent-4);
+      }
+    }
+  }
+}

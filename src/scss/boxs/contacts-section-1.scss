@@ -1,0 +1,26 @@
+.contacts-section-1 {
+  &__content {
+    padding-top: 120px;
+  }
+  &__wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  &__box-info {
+    padding: 70px;
+    border-radius: 14px;
+    background-color: var(--white);
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  &__map {
+    overflow: hidden;
+    border-radius: 14px;
+    min-height: 600px;
+    background-color: bisque;
+  }
+}

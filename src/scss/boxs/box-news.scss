@@ -1,0 +1,16 @@
+.box-news {
+  &__list {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  &__btn-wrapp {
+    display: flex;
+    justify-content: center;
+  }
+  &__link {
+    border-color: var(--body);
+    max-width: 440px;
+  }
+}

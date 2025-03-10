@@ -22,3 +22,10 @@
     color: var(--black);
   }
 }
+@media (max-width: 1380px) {
+  .card7 {
+    &__title {
+      font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+    }
+  }
+}

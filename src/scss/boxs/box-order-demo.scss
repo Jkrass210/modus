@@ -44,5 +44,28 @@
       max-width: 100%;
     }
   }
-  
+}
+
+.box-order-demo-4 {
+  .box-order-demo__content {
+    gap: 70px;
+  }
+}
+
+@media (max-width: 1380px) {
+  .box-order-demo {
+    &__desc {
+      font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+    }
+    &__btn {
+      max-width: 245px;
+    }
+  }
+  .box-order-demo-2 {
+    .box-order-demo {
+      &__title {
+        max-width: 915px;
+      }
+    }
+  }
 }

@@ -36,3 +36,25 @@
     }
   }
 }
+@media (max-width: 1380px) {
+  .box-read-news {
+    &__content {
+      padding: 60px;
+      .left {
+        width: calc(566 / 1200 * 100%);
+        &__title {
+          margin-bottom: 17px;
+        }
+        &__desc {
+          margin-bottom: 25px;
+        }
+        &__btn {
+          max-width: 240px;
+        }
+      }
+      img {
+        max-width: 685px;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.box-become-your-client {
+  &__list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    li {
+      grid-column: auto / span 2;
+      &:nth-last-child(2) {
+        grid-column: auto / span 3;
+      }
+      &:last-child {
+        grid-column: auto / span 3;
+      }
+    }
+
+  }
+}

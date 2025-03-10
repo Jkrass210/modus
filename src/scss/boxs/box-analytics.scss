@@ -24,3 +24,10 @@
     }
   }
 }
+@media (max-width: 1380px) { 
+  .box-analytics {
+    &__desc {
+      font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+    }
+  }
+}

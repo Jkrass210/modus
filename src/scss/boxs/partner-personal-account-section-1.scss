@@ -1,0 +1,29 @@
+.partner-personal-account-section-1 {
+  margin-bottom: 0;
+  &__content {
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+  &__title {
+    margin-bottom: 25px;
+  }
+  &__desc {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 550px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 145%;
+    text-align: center;
+    color: var(--black);
+  }
+  &__btn-wrapp {
+    display: flex;
+    justify-content: center;
+  }
+  &__btn {
+    border-color: var(--body);
+    max-width: 440px;
+  }
+}

@@ -1,0 +1,46 @@
+.box-training {
+  &__content {
+    min-height: 455px;
+    position: relative;
+    padding: 70px;
+    border-radius: 14px;
+    background-color: var(--white);
+    display: flex;
+  }
+  &__left {
+    width: calc(610 / 1260 * 100%);
+  }
+  &__title {
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--black);
+  }
+  &__box-desc {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    p {
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 130%;
+      color: var(--black);
+      opacity: 0.8;
+    }
+  }
+  &__btn-wrapp {
+    display: flex;
+    justify-content: start;
+  }
+  &__btn {
+    max-width: 310px;
+  }
+  &__img {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+  }
+}

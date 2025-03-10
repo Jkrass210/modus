@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Партнёрская программа Modus</title>
+  <link href="css/normalize.min.css" rel="stylesheet">
+  <link href="css/swiper-bundle.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+
+  <script src="js/swiper-bundle.min.js" defer></script>
+  <script src="js/fslightbox-min.js" defer></script>
+  <script src="js/d3-min.js" defer></script>
+  <script type="module" src="js/main-min.js"></script>
+</head>
+<body>
+  <header class="header default" id="header">
+  <div class="header__container container">
+    <div class="header__content">
+      <div class="logo">
+  <a class="logo__link" href="/">
+    <img class="logo__img" src="img/logo/Logo.svg">
+  </a>
+</div>
+      <nav class="header-nav" id="headerNav">
+  <ul class="header-nav__list list-reset">
+    <li>
+      <a href="#" class="header-nav__link">
+        Продукты
+      </a>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Преимущества
+      </a>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Кейсы
+      </a>
+    </li>
+    <li>
+      <div class="drop-down1">
+  <a href="#" class="drop-down1__btn btn-reset">
+    <span>Полезные материалы</span>
+    <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
+      <use xlink:href="img/sprite.svg#arrowDropDown1"></use>
+    </svg>
+  </a>
+  <ul class="drop-down1__list list-reset">
+    <li>
+      <a href="#" class="drop-down1__link">
+        База знаний
+      </a>
+    </li>
+    <li>
+      <a href="#" class="drop-down1__link">
+        Новости
+      </a>
+    </li>
+  </ul>
+</div>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Партнерство
+      </a>
+    </li>
+    <li>
+      <div class="drop-down1 drop-down1-2">
+  <a href="#" class="drop-down1__btn btn-reset">
+    <span>О компании</span>
+    <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
+      <use xlink:href="img/sprite.svg#arrowDropDown1"></use>
+    </svg>
+  </a>
+  <ul class="drop-down1__list list-reset">
+    <li>
+      <a href="#" class="drop-down1__link">
+        Награды
+      </a>
+    </li>
+    <li>
+      <a href="#" class="drop-down1__link">
+        Рекомендательные письма
+      </a>
+    </li>
+    <li>
+      <a href="#" class="drop-down1__link">
+        Контакты
+      </a>
+    </li>
+  </ul>
+</div>
+    </li>
+    <!-- Контейнер для скрытых пунктов -->
+    <li class="menu__more hidden">
+      <button class="menu__toggle btn-reset">
+        ...
+      </button>
+      <ul class="menu__hidden list-reset"></ul>
+    </li>
+  </ul>
+  <div class="header-nav__mobile mobile-header">
+    <div class="mobile-header__top">
+      <a href="tel:+74951182814">+7 (495) 118-28-14</a>
+      <a href="mailto:post@modusbi.ru">post@modusbi.ru</a>
+    </div>
+    <div class="mobile-header__btn-group">
+      <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-канал
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+      <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-чат
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+      </a>
+    </div>
+  </div>
+</nav>
+      <div class="header__btn-group">
+        <div class="search1">
+  <button class="search1__btn btn-reset">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <use xlink:href="img/sprite.svg#search"></use>
+    </svg>
+  </button>
+  <div class="search1__box">
+    <div class="search1__container container">
+      <form class="search1__form">
+        <input class="default-input" type="text" placeholder="Поиск по Базе знаний Modus BI">
+        <button class="search1__sabmit btn-reset">
+          <span>Искать</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+        <div class="phone">
+  <button class="phone__btn btn-reset">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <use xlink:href="img/sprite.svg#phone"></use>
+    </svg>
+  </button>
+  <div class="phone__box">
+    <p>+79829923366</p>
+  </div>
+</div>
+        <div class="phone-mob">
+  <a href="tel:+79829926346" class="phone-mob__link">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <use xlink:href="img/sprite.svg#phone"></use>
+    </svg>
+  </a>
+</div>
+        <a class="order-demo btn-reset">
+  <span class="order-demo__text">Заказать демо</span>
+  <span class="order-demo__svg-box">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <use xlink:href="img/sprite.svg#demo"></use>
+    </svg>
+  </span>
+</a>
+      </div>
+    </div>
+  </div>
+</header>
+  <main class="main">
+    <section class="become-partner-section-1__section section" id="partners">
+      <div class="become-partner-section-1__container container">
+        <div class="become-partner-section-1__default-background default-background">
+          <div class="become-partner-section-1__content">
+            <h1 class="become-partner-section-1__title page-title">
+              Партнёрская программа Modus
+            </h1>
+            <div class="become-partner-section-1__box-desc">
+              <p>
+                Присоединяйтесь к экосистеме профессионалов в сфере BI-технологий
+              </p>
+            </div>
+            <div class="box-implementation-1 box-implementation">
+  <ul class="box-implementation__list list-reset">
+    <li>
+      <div class="card16">
+  <div class="card16__box-top">
+    <img src="img/box-cases/1.png" alt="img">
+  </div>
+  <div class="card16__box-bottom">
+    <h3 class="card16__title">
+      Партнёр
+    </h3>
+    <div class="card16__box-info">
+      <a href="#">Сайт</a>
+      <span>Статус</span>
+      <p>Регион работы</p>
+    </div>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="card16">
+  <div class="card16__box-top">
+    <img src="img/box-cases/2.png" alt="img">
+  </div>
+  <div class="card16__box-bottom">
+    <h3 class="card16__title">
+      Партнёр
+    </h3>
+    <div class="card16__box-info">
+      <a href="#">Сайт</a>
+      <span>Статус</span>
+      <p>Регион работы</p>
+    </div>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="card16">
+  <div class="card16__box-top">
+    <img src="img/box-cases/3.png" alt="img">
+  </div>
+  <div class="card16__box-bottom">
+    <h3 class="card16__title">
+      Партнёр
+    </h3>
+    <div class="card16__box-info">
+      <a href="#">Сайт</a>
+      <span>Статус</span>
+      <p>Регион работы</p>
+    </div>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="card16">
+  <div class="card16__box-top">
+    <img src="img/box-cases/4.png" alt="img">
+  </div>
+  <div class="card16__box-bottom">
+    <h3 class="card16__title">
+      Партнёр
+    </h3>
+    <div class="card16__box-info">
+      <a href="#">Сайт</a>
+      <span>Статус</span>
+      <p>Регион работы</p>
+    </div>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="card16">
+  <div class="card16__box-top">
+    <img src="img/box-cases/1.png" alt="img">
+  </div>
+  <div class="card16__box-bottom">
+    <h3 class="card16__title">
+      Партнёр
+    </h3>
+    <div class="card16__box-info">
+      <a href="#">Сайт</a>
+      <span>Статус</span>
+      <p>Регион работы</p>
+    </div>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="card16">
+  <div class="card16__box-top">
+    <img src="img/box-cases/2.png" alt="img">
+  </div>
+  <div class="card16__box-bottom">
+    <h3 class="card16__title">
+      Партнёр
+    </h3>
+    <div class="card16__box-info">
+      <a href="#">Сайт</a>
+      <span>Статус</span>
+      <p>Регион работы</p>
+    </div>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="card16">
+  <div class="card16__box-top">
+    <img src="img/box-cases/3.png" alt="img">
+  </div>
+  <div class="card16__box-bottom">
+    <h3 class="card16__title">
+      Партнёр
+    </h3>
+    <div class="card16__box-info">
+      <a href="#">Сайт</a>
+      <span>Статус</span>
+      <p>Регион работы</p>
+    </div>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="card16">
+  <div class="card16__box-top">
+    <img src="img/box-cases/4.png" alt="img">
+  </div>
+  <div class="card16__box-bottom">
+    <h3 class="card16__title">
+      Партнёр
+    </h3>
+    <div class="card16__box-info">
+      <a href="#">Сайт</a>
+      <span>Статус</span>
+      <p>Регион работы</p>
+    </div>
+  </div>
+</div>
+    </li>
+  </ul>
+</div>
+          </div>
+        </div>
+      </div>
+      <div class="box-nav-become-partner">
+  <ul class="box-nav-become-partner__list list-reset">
+    <li>
+      <div class="nav-point">
+  <a href="#partners" class="nav-point__link">
+    <svg class="svg-default" width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <use xlink:href="img/sprite.svg#navPoint"></use>
+    </svg>
+    <svg class="svg-active" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </a>
+  <div class="nav-point__hidden">
+    <p>Партнеры</p>
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="nav-point">
+  <a href="#formOurProgram" class="nav-point__link">
+    <svg class="svg-default" width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <use xlink:href="img/sprite.svg#navPoint"></use>
+    </svg>
+    <svg class="svg-active" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </a>
+  <div class="nav-point__hidden">
+    <p>Ознакомьтесь с нашей партнерской программой</p>
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="nav-point">
+  <a href="#ourSolutions" class="nav-point__link">
+    <svg class="svg-default" width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <use xlink:href="img/sprite.svg#navPoint"></use>
+    </svg>
+    <svg class="svg-active" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </a>
+  <div class="nav-point__hidden">
+    <p>Наши решения</p>
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="nav-point">
+  <a href="#income" class="nav-point__link">
+    <svg class="svg-default" width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <use xlink:href="img/sprite.svg#navPoint"></use>
+    </svg>
+    <svg class="svg-active" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </a>
+  <div class="nav-point__hidden">
+    <p>На чем зарабатывают наши партнёры?</p>
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="nav-point">
+  <a href="#profitably" class="nav-point__link">
+    <svg class="svg-default" width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <use xlink:href="img/sprite.svg#navPoint"></use>
+    </svg>
+    <svg class="svg-active" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </a>
+  <div class="nav-point__hidden">
+    <p>Почему с нами выгодно?</p>
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="nav-point">
+  <a href="#boxOrderDemo4" class="nav-point__link">
+    <svg class="svg-default" width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <use xlink:href="img/sprite.svg#navPoint"></use>
+    </svg>
+    <svg class="svg-active" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </a>
+  <div class="nav-point__hidden">
+    <p>Стать партнёром Modus</p>
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="nav-point">
+  <a href="#boxBecomeYourClient" class="nav-point__link">
+    <svg class="svg-default" width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <use xlink:href="img/sprite.svg#navPoint"></use>
+    </svg>
+    <svg class="svg-active" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </a>
+  <div class="nav-point__hidden">
+    <p>Кто может стать вашим клиентом?</p>
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="nav-point">
+  <a href="#earn" class="nav-point__link">
+    <svg class="svg-default" width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <use xlink:href="img/sprite.svg#navPoint"></use>
+    </svg>
+    <svg class="svg-active" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </a>
+  <div class="nav-point__hidden">
+    <p>Сколько можно заработать на партнёрской программе?</p>
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </div>
+</div>
+    </li>
+    <li>
+      <div class="nav-point">
+  <a href="#boxContacts" class="nav-point__link">
+    <svg class="svg-default" width="12" height="12" viewBox="0 0 12 12" fill="none">
+      <use xlink:href="img/sprite.svg#navPoint"></use>
+    </svg>
+    <svg class="svg-active" width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </a>
+  <div class="nav-point__hidden">
+    <p>Контакты отдела по работе с партнёрами</p>
+    <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+      <use xlink:href="img/sprite.svg#navPointActive"></use>
+    </svg>
+  </div>
+</div>
+    </li>
+  </ul>
+</div>
+    </section>
+    <section class="form-our-program__section section" id="formOurProgram">
+  <div class="form-our-program__container container">
+    <div class="form-our-program__content">
+      <div class="form-our-program__box-top">
+        <h2 class="form-our-program__title section-title">
+          Ознакомьтесь с нашей партнерской программой
+        </h2>
+        <p class="form-our-program__desc">
+          Отправьте нам заявку, и мы пришлем Вам подробное описание партнерской программы на указанную почту.
+        </p>
+      </div>
+      <div class="form-our-program__form-wrapp">
+        <form class="form-our-program__form" action="#" method="post">
+          <input class="default-input" type="text" name="fio" placeholder="Иья*">
+          <input class="default-input" type="text" name="company" placeholder="Ваша компания">
+          <input class="default-input" type="text" name="business-mail" placeholder="Email*">
+          <input class="default-input" type="text" name="business-mail" placeholder="Телефон*">
+          <textarea class="default-textarea"  placeholder="Комментарий" style="resize: none;"></textarea>
+          <div class="checkbox1">
+  <label class="checkbox1__label">
+    <input type="checkbox" name="personal_data">
+    <span class="checkbox1__castom">
+      <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.5 4L4.5 7L10.5 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </span>
+    <span class="checkbox1__text">Я согласен на <a href="#">обработку персональных данных</a></span>
+  </label>
+</div>
+          <button class="form-submit btn-reset disabled">
+  <span class="form-submit__text">Отправить</span>
+  <svg width="24" height="23" viewBox="0 0 24 23" fill="none">
+    <use xlink:href="img/sprite.svg#arrowSubmit"></use>
+  </svg>
+</button>
+        </form>
+      </div>
+      <img class="form-our-program__img" src="img/form-our-program/1.png" alt="img">
+    </div>
+  </div>
+</section>
+    <section class="box-our-solutions__section section" id="ourSolutions">
+  <div class="box-our-solutions__container container">
+    <h2 class="box-our-solutions__title section-title">
+      Наши решения
+    </h2>
+    <ul class="box-our-solutions__list list-reset">
+      <li>
+        <div class="card17">
+  <div class="card17__box-top">
+    <h3 class="card17__title">
+      Modus BI
+    </h3>
+    <p class="card17__desc">
+      Платформа для бизнес-аналитики
+    </p>
+    <p class="card17__price">
+      от 1 000 000 ₽
+    </p>
+  </div>
+  <div class="card17__btn-wrapp">
+    <a class="card17__btn default-link btn-reset">
+      <span class="text">
+        Подробнее о продукте
+      </span>
+      <svg width="19" height="19" viewBox="0 0 19 19" fill="none">
+        <use xlink:href="img/sprite.svg#arrowBtn22"></use>
+      </svg>
+    </a>
+  </div>
+  <img class="card17__img" src="img/box-our-solutions/1.png">
+</div>
+      </li>
+      <li>
+        <div class="card17">
+  <div class="card17__box-top">
+    <h3 class="card17__title">
+      Modus ETL
+    </h3>
+    <p class="card17__desc">
+      Решение для управления ETL-процессами и Data Quality Management
+    </p>
+    <p class="card17__price">
+      от 1 000 000 ₽
+    </p>
+  </div>
+  <div class="card17__btn-wrapp">
+    <a class="card17__btn default-link btn-reset">
+      <span class="text">
+        Подробнее о продукте
+      </span>
+      <svg width="19" height="19" viewBox="0 0 19 19" fill="none">
+        <use xlink:href="img/sprite.svg#arrowBtn22"></use>
+      </svg>
+    </a>
+  </div>
+  <img class="card17__img" src="img/box-our-solutions/2.png">
+</div>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="box-income__section section" id="income">
+  <div class="box-income__container container">
+    <h2 class="box-income__title section-title">
+      На чем зарабатывают наши партнёры?
+    </h2>
+    <ul class="box-income__list list-reset">
+      <li>
+        <div class="card18">
+  <div class="card18__box-img">
+    <img class="card18__img" src="img/box-income/1.png" alt="img">
+  </div>
+  <div class="card18__box-info">
+    <h3 class="card18__title">
+      Продажи
+    </h3>
+    <p class="card18__desc">
+      Продавайте продукты Modus и получайте ежемесячный доход на продаже лицензий
+    </p>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card18">
+  <div class="card18__box-img">
+    <img class="card18__img" src="img/box-income/2.png" alt="img">
+  </div>
+  <div class="card18__box-info">
+    <h3 class="card18__title">
+      Автоматизация
+    </h3>
+    <p class="card18__desc">
+      Помогите своим клиентам автоматизировать процессы и зарабатывайте на новом направлении
+    </p>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card18">
+  <div class="card18__box-img">
+    <img class="card18__img" src="img/box-income/3.png" alt="img">
+  </div>
+  <div class="card18__box-info">
+    <h3 class="card18__title">
+      Консалтинг
+    </h3>
+    <p class="card18__desc">
+      Увеличивайте продажи своих услуг на базе аналитических инструментов Modus
+    </p>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card18">
+  <div class="card18__box-img">
+    <img class="card18__img" src="img/box-income/4.png" alt="img">
+  </div>
+  <div class="card18__box-info">
+    <h3 class="card18__title">
+      Внедрение
+    </h3>
+    <p class="card18__desc">
+      Продавайте продукты Modus и получайте ежемесячный доход на продаже лицензий
+    </p>
+  </div>
+</div>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="box-profitably__section section" id="profitably">
+  <div class="box-profitably__container container">
+    <div class="box-profitably__content">
+      <h2 class="box-profitably__title section-title">
+        Почему с нами выгодно?
+      </h2>
+      <ul class="box-profitably__list list-reset">
+        <li>
+          <div class="card19">
+  <h3 class="card19__title">
+    Наращивайте средний чек и UPsell
+  </h3>
+  <p class="card19__desc">
+    Продукты Modus станут логичным дополнением к тому, что уже продали вашим клиентам
+  </p>
+</div>
+        </li>
+        <li>
+          <div class="card19">
+  <h3 class="card19__title">
+    Увеличивайте конверсию в продажу
+  </h3>
+  <p class="card19__desc">
+    Продавать универсальные, простые и эффективные решения легко и приятно
+  </p>
+</div>
+        </li>
+        <li>
+          <div class="card19">
+  <h3 class="card19__title">
+    Выход на новых клиентов
+  </h3>
+  <p class="card19__desc">
+    Открывайте для себя новые клиентские сегменты, которые ранее были недоступны
+  </p>
+</div>
+        </li>
+        <li>
+          <div class="card19">
+  <h3 class="card19__title">
+    Большой срок жизни клиентов
+  </h3>
+  <p class="card19__desc">
+    С Modus ETL клиент однажды — клиент навсегда
+  </p>
+</div>
+        </li>
+      </ul>
+      <div class="box-profitably__btn-wrapp">
+        <button class="box-profitably__btn default-btn btn-reset">
+          <span class="text">
+            Запросить бизнес-план
+          </span>
+          <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+            <use xlink:href="img/sprite.svg#order"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="box-order-demo-4 box-order-demo__section section" id="boxOrderDemo4">
+  <div class="box-order-demo__container container">
+    <h2 class="box-order-demo__title section-title">
+      Стать партнёром Modus
+    </h2>
+    <div class="box-order-demo__content">
+      <p class="box-order-demo__desc">
+        Присоединяйтесь к экосистеме профессионалов в сфере BI-технологий
+      </p>
+      <div class="box-order-demo__btn-wrapp">
+        <button class="box-order-demo__btn default-btn btn-reset">
+          <span class="text">
+            Оставить заявку
+          </span>
+          <svg width="24" height="23" viewBox="0 0 24 23" fill="none">
+            <use xlink:href="img/sprite.svg#arrowSubmit"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="box-become-your-client__section section" id="boxBecomeYourClient">
+  <div class="box-become-your-client__container container">
+    <div class="box-become-your-client__content">
+      <h2 class="box-become-your-client__title section-title">
+        Кто может стать вашим клиентом?
+      </h2>
+      <ul class="box-become-your-client__list list-reset">
+        <li>
+          <div class="card20">
+  <div class="card20__box-img">
+    <img src="img/box-become-your-client/1.svg" alt="img">
+  </div>
+  <div class="card20__box-title">
+    <h3 class="card20__title">
+      Промышленность
+    </h3>
+  </div>
+</div>
+        </li>
+        <li>
+          <div class="card20">
+  <div class="card20__box-img">
+    <img src="img/box-become-your-client/2.svg" alt="img">
+  </div>
+  <div class="card20__box-title">
+    <h3 class="card20__title">
+      E-commerce
+    </h3>
+  </div>
+</div>
+        </li>
+        <li>
+          <div class="card20">
+  <div class="card20__box-img">
+    <img src="img/box-become-your-client/3.svg" alt="img">
+  </div>
+  <div class="card20__box-title">
+    <h3 class="card20__title">
+      Ритейл и FMCG
+    </h3>
+  </div>
+</div>
+        </li>
+        <li>
+          <div class="card20">
+  <div class="card20__box-img">
+    <img src="img/box-become-your-client/4.svg" alt="img">
+  </div>
+  <div class="card20__box-title">
+    <h3 class="card20__title">
+      Финтех
+    </h3>
+  </div>
+</div>
+        </li>
+        <li>
+          <div class="card20">
+  <div class="card20__box-img">
+    <img src="img/box-become-your-client/5.svg" alt="img">
+  </div>
+  <div class="card20__box-title">
+    <h3 class="card20__title">
+      Медицина
+    </h3>
+  </div>
+</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+    <section class="box-earn__section section" id="earn">
+  <div class="box-earn__container container">
+    <div class="box-earn__content">
+      <h2 class="box-earn__title section-title">
+        Сколько можно заработать на партнёрской программе?
+      </h2>
+      <p class="box-earn__desc">
+        Средний доход партнера (с клиента в месяц): от 30 000 до 100 000 рублей / мес
+      </p>
+      <div class="box-earn__box-info">
+        <div class="box-earn__top-box">
+          <div class="box-earn__group">
+            <span class="top">50 000 руб.</span>
+            <span class="bottom">Средний доход партнёра</span>
+          </div>
+          <div class="box-earn__box-svg">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+              <use xlink:href="img/sprite.svg#multiplication"></use>
+            </svg>
+          </div>
+          <div class="box-earn__group-wrapp">
+            <svg width="19" height="162" viewBox="0 0 19 162" fill="none">
+              <use xlink:href="img/sprite.svg#bracket"></use>
+            </svg>
+            <div class="box-earn__group">
+              <span class="top">100 клиентов</span>
+              <span class="bottom">Среднее кол-во клиентов партнера</span>
+            </div>
+          </div>
+          <div class="box-earn__box-svg">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+              <use xlink:href="img/sprite.svg#multiplication"></use>
+            </svg>
+          </div>
+          <div class="box-earn__group-wrapp">
+            <div class="box-earn__group">
+              <span class="top">10%</span>
+              <span class="bottom">Конверсия в продажу решений Модус</span>
+            </div>
+            <svg width="19" height="162" viewBox="0 0 19 162" fill="none">
+              <use xlink:href="img/sprite.svg#bracket2"></use>
+            </svg>
+          </div>
+          <div class="box-earn__box-svg">
+            <svg width="20" height="10" viewBox="0 0 20 10" fill="none">
+              <use xlink:href="img/sprite.svg#evenly"></use>
+            </svg>
+          </div>
+          <div class="box-earn__group">
+            <span class="top">500 000 руб.</span>
+            <span class="bottom">Средний доход партнера / мес.</span>
+          </div>
+          <div class="box-earn__box-svg">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none">
+              <use xlink:href="img/sprite.svg#multiplication"></use>
+            </svg>
+          </div>
+          <div class="box-earn__group">
+            <span class="top">12 мес.</span>
+          </div>
+        </div>
+        <svg width="82" height="10" viewBox="0 0 82 10" fill="none">
+          <use xlink:href="img/sprite.svg#evenlyBig"></use>
+        </svg>
+        <div class="box-earn__last-group">
+          <span class="top">6 000 000 рублей</span>
+          <span class="bottom">Чистый доход партнера в год</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="box-contacts__section section" id="boxContacts">
+  <div class="box-contacts__container container">
+    <div class="box-contacts__content">
+      <div class="box-contacts__left">
+        <h2 class="box-contacts__title section-title">
+          Контакты отдела по работе с партнёрами
+        </h2>
+        <ul class="contacts-section-1__list list-reset">
+          <li>
+            <div class="group-ifo-link">
+              <h3 class="group-ifo-link__title">
+                Телефон
+              </h3>
+              <a class="group-ifo-link__link" href="tel:++74951182814">
+                +7 (495) 118-28-14
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="group-ifo-link">
+              <h3 class="group-ifo-link__title">
+                Электронная почта
+              </h3>
+              <a class="group-ifo-link__link" href="mailto:post@modusbi.ru">
+                post@modusbi.ru
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer" id="footer">
+  <div class="footer-top-box">
+  <div class="footer-top-box__container container">
+    <div class="footer-top-box__left left">
+      <form class="left__form">
+        <h3 class="left__form-title">
+          Есть вопросы? Спросите нас!
+        </h3>
+        <input class="default-input" type="text" name="fio" placeholder="ФИО*">
+        <input class="default-input" type="text" name="company" placeholder="Компания*">
+        <input class="default-input" type="text" name="business-mail" placeholder="Рабочая почта*">
+        <input class="default-input" type="text" name="business-mail" placeholder="Телефон">
+        <div class="drop-down2">
+  <input class="default-input" type="text" name="product" placeholder="Какой продукт Вас заинтересовал?*">
+  <button class="drop-down2__btn btn-reset">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <use xlink:href="img/sprite.svg#arrowDropDown2"></use>
+    </svg>
+  </button>
+  <ul class="drop-down2__list list-reset">
+    <li class="drop-down2__item">fffffff</li>
+    <li class="drop-down2__item">33333333 sddv srrgs sefew</li>
+    <li class="drop-down2__item">ddddd sdvs sefwev seegweg seegwg srgewr</li>
+  </ul>
+</div>
+        <textarea class="default-textarea"  placeholder="Кратко опишите свой вопрос" style="resize: none;"></textarea>
+        <div class="left__group">
+          <div class="checkbox1">
+  <label class="checkbox1__label">
+    <input type="checkbox" name="personal_data">
+    <span class="checkbox1__castom">
+      <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.5 4L4.5 7L10.5 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </span>
+    <span class="checkbox1__text">Я согласен на <a href="#">обработку персональных данных</a></span>
+  </label>
+</div>
+          <button class="form-submit btn-reset disabled">
+  <span class="form-submit__text">Отправить</span>
+  <svg width="24" height="23" viewBox="0 0 24 23" fill="none">
+    <use xlink:href="img/sprite.svg#arrowSubmit"></use>
+  </svg>
+</button>
+        </div>
+      </form>
+    </div>
+    <div class="footer-top-box__right right">
+      <img class="right__img" src="img/footer/top/img-form.png">
+    </div>
+  </div>
+</div>
+  <div class="footer-centr-box">
+  <div class="footer-centr-box__container container">
+    <div class="footer-centr-box__left left">
+      <h3 class="left__title">
+        Контакты
+      </h3>
+      <ul class="left__list list-reset">
+        <li>
+          <div class="left__info-box">
+            <h4>Компания</h4>
+            <a href="tel:+74951182814">+7 (495) 118-28-14</a>
+            <a href="mailto:post@modusbi.ru">post@modusbi.ru</a>
+          </div>
+        </li>
+        <li>
+          <div class="left__info-box">
+            <h4>Компания</h4>
+            <a href="tel:+74951182814">+7 (495) 118-28-14</a>
+            <a href="mailto:post@modusbi.ru">post@modusbi.ru</a>
+          </div>
+        </li>
+        <li>
+          <div class="left__info-box">
+            <h4>Реквизиты</h4>
+            <address>
+              <p>ООО «БиАй Про», 115114, г Москва, 2-й Кожевнический переулок, д. 12, стр. 2</p>
+            </address>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-centr-box__right right">
+      <div class="right__group">
+        <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-канал
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+        <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-чат
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+      </div>
+      <p class="right__desc">
+        Подпишись и узнавай первым о новостях продуктов Modus
+      </p>
+      <div class="right__box-blog">
+        <h3>Наши блоги</h3>
+        <ul class="list-reset">
+          <li>
+            <a href="#">
+              <span class="img-box">
+                <img src="img/footer/centr/blog-1.png">
+              </span>
+              <span class="text">
+                Habr
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="img-box">
+                <img src="img/footer/centr/blog-2.png">
+              </span>
+              <span class="text">
+                VC
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="footer-bottom-box">
+  <div class="footer-bottom-box__container container">
+    <ul class="footer-bottom-box__list-top list-reset">
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Modus BI</a>
+          </li>
+          <li>
+            <a href="#">Modus ETL</a>
+          </li>
+          <li>
+            <a href="#">Modus BI Cloud</a>
+          </li>
+          <li>
+            <a href="#">Преимущества</a>
+          </li>
+          <li>
+            <a href="#">Кейсы</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Партнёрство</a>
+          </li>
+          <li>
+            <a href="#">Внедрение с помощью партнёров</a>
+          </li>
+          <li>
+            <a href="#">Как стать партнёром</a>
+          </li>
+          <li>
+            <a href="#">Личный кабинет партнёра</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Промышленность</a>
+          </li>
+          <li>
+            <a href="#">E-commerce</a>
+          </li>
+          <li>
+            <a href="#">Ритейл и FMGG</a>
+          </li>
+          <li>
+            <a href="#">Госкомпании</a>
+          </li>
+          <li>
+            <a href="#">Финтех</a>
+          </li>
+          <li>
+            <a href="#">Медицина</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Полезные материалы</a>
+          </li>
+          <li>
+            <a href="#">База знаний</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p class="footer-bottom-box__desc">
+      © ООО «БиАй Про», актуальный год. Все права защищены.
+    </p>
+  </div>
+</div>
+</footer>
+</body>
+</html>

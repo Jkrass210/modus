@@ -15,3 +15,9 @@
     gap: clamp(7px, 2vw, 30px);
   }
 }
+@media (max-width: 1030px) {
+  .header{
+    position: relative;
+    z-index: 4;
+  }
+}

@@ -1,0 +1,31 @@
+.card19 {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 14px;
+  min-height: 270px;
+  background-color: var(--white);
+  background-image: url("../img/box-profitably/1.png"), url("../img/box-profitably/2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center left, center right;
+
+  &__title {
+    max-width: 420px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: var(--black);
+  }
+  &__desc {
+    max-width: 420px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--black);
+  }
+}

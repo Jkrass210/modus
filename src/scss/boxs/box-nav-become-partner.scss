@@ -1,0 +1,11 @@
+.box-nav-become-partner {
+  position: fixed;
+  top: 113px;
+  right: 20px;
+  z-index: 3;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

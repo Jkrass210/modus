@@ -38,3 +38,8 @@
     right: 0;
   }
 }
+.box-releases-1 {
+  .box-releases__left {
+    width: calc(550 / 1260 * 100%);
+  }
+}

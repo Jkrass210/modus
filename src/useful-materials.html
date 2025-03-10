@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/components/head.html',{"title":"Полезные материалы"})
+<body>
+  @@include('html/boxs/header-default.html')
+  <main class="main">
+    <section class="useful-materials-section-1 section">
+      <div class="useful-materials-section-1__container container">
+        <div class="useful-materials-section-1__default-background default-background">
+          <div class="useful-materials-section-1__content">
+            <h1 class="useful-materials-section-1__title page-title">
+              Все самое полезное – в одном месте
+            </h1>
+            <div class="useful-materials-section-1__box-desc">
+              <p>
+                На этой странице мы собрали все актуальные медиа-ресурсы Modus, чтобы вы всегда были в курсе последних событий.
+              </p>
+            </div>
+            @@include('html/boxs/box-news-company.html')
+          </div>
+        </div>
+      </div>
+    </section>
+    @@include('html/boxs/box-you-know.html')
+    @@include('html/boxs/box-releases-1.html')
+    @@include('html/boxs/box-technical.html')
+    @@include('html/boxs/box-training.html')
+  </main>
+  @@include('html/boxs/footer.html')
+</body>
+</html>

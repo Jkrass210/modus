@@ -1,0 +1,16 @@
+.box-profitably {
+  &__list {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  &__btn-wrapp {
+    display: flex;
+    justify-content: center;
+  }
+  &__btn {
+    border-color: var(--body);
+    max-width: 440px;
+  }
+}

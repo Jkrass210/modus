@@ -1,0 +1,28 @@
+.become-partner-section-1 {
+  &__section {
+    position: relative;
+  }
+  &__content {
+    padding-top: 120px;
+  }
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__box-desc {
+    margin: auto;
+    margin-bottom: 60px;
+    max-width: 590px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    p {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 145%;
+      text-align: center;
+      color: var(--black);
+    }
+  }
+}

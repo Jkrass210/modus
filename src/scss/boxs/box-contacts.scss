@@ -1,0 +1,17 @@
+.box-contacts {
+  &__content {
+    padding: 100px;
+    border-radius: 14px;
+    background-color: var(--white);
+    background-image: url("../img/box-contacts/1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  &__title {
+    text-align: start;
+    margin-bottom: 60px;
+  }
+  &__left {
+    width: calc(645 / 1260 * 100%);
+  }
+}

@@ -55,3 +55,19 @@
     inset: auto 0 0 0;
   }
 }
+@media (max-width: 1380px) {
+  .card6 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: calc(190 / 1200 * 100%);
+    padding-right: calc(190 / 1200 * 100%);
+    &__list {
+      li {
+        font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+      }
+    }
+    &__link {
+      max-width: 210px;
+    }
+  }
+}

@@ -6,7 +6,7 @@
     align-items: center;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--black);
     transition: color 0.4s ease-in-out;
     &:has( + .drop-down1__list:hover){
@@ -72,6 +72,14 @@
     }
     &:focus-visible,&:hover,&:active {
       color: var(--accent-2);
+    }
+  }
+}
+
+@media (max-width: 1380px) {
+  .drop-down1 {
+    &__btn {
+      font-size: calc(16px + (20 - 16) * ((100vw - 1240px) / (1440 - 1240)));
     }
   }
 }

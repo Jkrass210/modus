@@ -8,6 +8,7 @@
     .left {
       width: calc(510 / 1400 * 100%);
       &__form {
+        margin-bottom: 100px;
         display: flex;
         flex-direction: column;
         gap: 14px;
@@ -29,6 +30,13 @@
     .right {
       flex: 1;
       display: flex;
+      justify-content: end;
+      align-items: end;
     }
+  }
+}
+@media (max-width: 1380px) {
+  .footer-top-box {
+
   }
 }

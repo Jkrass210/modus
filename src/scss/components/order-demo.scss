@@ -28,3 +28,11 @@
     border-color: var(--accent-1);
   }
 }
+
+@media (max-width: 1380px) {
+  .order-demo {
+    &__text {
+      font-size: 12px;
+    }
+  }
+}

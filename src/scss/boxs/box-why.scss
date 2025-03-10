@@ -13,3 +13,10 @@
     max-width: 440px;
   }
 }
+@media (max-width: 1380px) {
+  .box-why {
+    &__btn {
+      max-width: 280px;
+    }
+  }
+}

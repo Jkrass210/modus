@@ -1,0 +1,35 @@
+.box-you-know {
+  &__section {
+    padding: 100px 0;
+    background-image: url(../img/box-you-know/1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__title {
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    color: var(--white);
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    &:first-of-type {
+      margin-bottom: 80px;
+    }
+  }
+  &__box-desc {
+    margin-bottom: 40px;
+    p {
+      font-family: var(--second-family);
+      font-weight: 600;
+      font-size: 48px;
+      text-align: center;
+      color: var(--white);
+    }
+  }
+}

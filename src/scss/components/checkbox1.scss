@@ -10,6 +10,7 @@
       height: 0;
       position: absolute;
       &:checked + .checkbox1__castom {
+        color: var(--black-1);
         svg {
           opacity: 1;
         }

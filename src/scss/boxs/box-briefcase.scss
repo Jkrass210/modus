@@ -10,3 +10,11 @@
     }
   }
 }
+
+@media (max-width: 1380px) { 
+  .box-briefcase {
+    &__list {
+      row-gap: 34px;
+    }
+  }
+}

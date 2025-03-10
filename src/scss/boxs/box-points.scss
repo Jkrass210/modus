@@ -1,5 +1,5 @@
 .box-points {
-  padding: 30px 46px;
+  padding: 30px 43px;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -9,7 +9,7 @@
   position: absolute;
   z-index: 3;
   left: 50%;
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -50%);
   border: 1px solid rgba(34, 44, 85, 0.11);
   box-shadow: 0 6px 12px 0 rgba(128, 128, 128, 0.02), 0 22px 22px 0 rgba(128, 128, 128, 0.02), 0 50px 30px 0 rgba(128, 128, 128, 0.01), 0 89px 36px 0 rgba(128, 128, 128, 0), 0 139px 39px 0 rgba(128, 128, 128, 0);
   background: var(--white);
@@ -20,8 +20,8 @@
     li {
       position: relative;
       flex: 1;
-      padding-left: 25px;
-      padding-right: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
       //border-right: 1px solid rgba(52, 145, 247, 0.3);
       &:first-child {
         padding-left:0;

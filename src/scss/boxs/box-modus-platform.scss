@@ -57,3 +57,16 @@
     transform: translate(-50%, 0);
   }
 }
+
+@media (max-width: 1380px) {
+  .box-modus-platform {
+    &__container {
+      border-radius: 14px;
+      background-color: var(--white);
+    }
+    &__content {
+      padding: 100px 0;
+      background-color: transparent;
+    }
+  }
+}

@@ -9,6 +9,9 @@
   justify-content: space-between;
   &__box-img {
     padding: 0 10px;
+    img {
+      max-height: 81px;
+    }
   }
   &__box-info {
     display: flex;
@@ -27,6 +30,12 @@
     font-size: 18px;
     line-height: 130%;
     color: var(--black);
+  }
+  &__data {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--accent-5);
   }
   &__link {
     min-height: 64px;
@@ -80,5 +89,55 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+  }
+}
+.card13-1 {
+  .card13__desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    /* Фолбэк для старых браузеров */
+    max-height: calc(1.2em * 3); /* Высота строки * 3 */
+    line-height: 1.2em;
+  }
+  
+}
+
+.card13-2 {
+  gap: 20px;
+  .card13__box-img {
+    margin-bottom: 25px;
+  }
+  .card13__title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    /* Фолбэк для старых браузеров */
+    max-height: calc(1.2em * 2); /* Высота строки * 3 */
+    line-height: 1.2em;
+    transition: color 0.4s ease-in-out;
+    &:focus,&:focus-visible {
+      outline: none;
+    }
+    &:focus-visible,&:hover,&:active {
+      color: var(--accent-3);
+    }
+  }
+  .card13__desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    /* Фолбэк для старых браузеров */
+    max-height: calc(1.2em * 4); /* Высота строки * 3 */
+    line-height: 1.2em;
   }
 }

@@ -34,3 +34,13 @@
     color: var(--black);
   }
 }
+@media (max-width: 1380px) {
+  .cadr8 {
+    &__desc {
+      font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+    }
+    &__last-desc {
+      font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+    }
+  }
+}

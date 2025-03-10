@@ -14,6 +14,7 @@
     flex-direction: column;
   }
   &__title {
+    margin-bottom: 12px;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 58px;
@@ -40,5 +41,24 @@
     left: 50%;
     bottom: 68px;
     transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 1380px) {
+  .card4 {
+    min-height: 595px;
+    padding: 70px 110px;
+    background-size: 85%;
+    &__title {
+      margin-bottom: 10px;
+      font-size: calc(48px + (58 - 48) * ((100vw - 1240px) / (1440 - 1240)));
+    }
+    &__desc {
+      margin-bottom: 34px;
+      font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+    }
+    &__img {
+      max-width: 445px;
+    }
   }
 }

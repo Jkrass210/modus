@@ -100,4 +100,96 @@
   <symbol id="arrowMoreDown" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M4.57129 6.75L9.07129 11.25L13.5713 6.75" stroke="#1DE1D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
   </symbol>
+
+  <symbol id="know" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13.3213 10.8737V8.61953C13.3213 8.48492 13.3213 8.41761 13.3008 8.35819C13.2827 8.30565 13.2531 8.25778 13.2142 8.21807C13.1702 8.17317 13.11 8.14307 12.9896 8.08287L9.57129 6.37371M3.57129 7.12371V12.2287C3.57129 12.5076 3.57129 12.6471 3.6148 12.7692C3.65327 12.8771 3.71596 12.9748 3.79807 13.0548C3.89095 13.1452 4.01774 13.2033 4.2713 13.3195L9.0713 15.5195C9.25523 15.6038 9.34719 15.646 9.44299 15.6626C9.52789 15.6774 9.61469 15.6774 9.69958 15.6626C9.79539 15.646 9.88735 15.6038 10.0713 15.5195L14.8713 13.3195C15.1248 13.2033 15.2516 13.1452 15.3445 13.0548C15.4266 12.9748 15.4893 12.8771 15.5278 12.7692C15.5713 12.6471 15.5713 12.5076 15.5713 12.2287V7.12371M2.07129 6.37371L9.30296 2.75787C9.40135 2.70868 9.45054 2.68408 9.50214 2.6744C9.54784 2.66583 9.59474 2.66583 9.64044 2.6744C9.69204 2.68408 9.74123 2.70868 9.83962 2.75787L17.0713 6.37371L9.83962 9.98954C9.74123 10.0387 9.69204 10.0633 9.64044 10.073C9.59474 10.0816 9.54784 10.0816 9.50214 10.073C9.45054 10.0633 9.40135 10.0387 9.30296 9.98954L2.07129 6.37371Z" stroke="#1DE1D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <symbol id="sign" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15.8213 8.625V6.6C15.8213 5.33988 15.8213 4.70982 15.5761 4.22852C15.3603 3.80516 15.0161 3.46095 14.5928 3.24524C14.1115 3 13.4814 3 12.2213 3H5.92129C4.66117 3 4.03111 3 3.54981 3.24524C3.12645 3.46095 2.78224 3.80516 2.56652 4.22852C2.32129 4.70982 2.32129 5.33988 2.32129 6.6V12.9C2.32129 14.1601 2.32129 14.7902 2.56652 15.2715C2.78224 15.6948 3.12645 16.039 3.54981 16.2548C4.03111 16.5 4.66117 16.5 5.92129 16.5H9.44629M15.8213 7.5H2.32129M12.0713 1.5V4.5M6.07129 1.5V4.5M13.5713 15.75V11.25M11.3213 13.5H15.8213" stroke="#1DE1D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <symbol id="order" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12.5703 5.25C12.5703 4.55252 12.5703 4.20378 12.4936 3.91766C12.2856 3.1412 11.6791 2.53472 10.9027 2.32667C10.6165 2.25 10.2678 2.25 9.57031 2.25C8.87283 2.25 8.52409 2.25 8.23797 2.32667C7.46151 2.53472 6.85503 3.1412 6.64698 3.91766C6.57031 4.20378 6.57031 4.55252 6.57031 5.25M4.47031 15.75H14.6703C15.5104 15.75 15.9304 15.75 16.2513 15.5865C16.5335 15.4427 16.763 15.2132 16.9068 14.931C17.0703 14.6101 17.0703 14.1901 17.0703 13.35V7.65C17.0703 6.80992 17.0703 6.38988 16.9068 6.06901C16.763 5.78677 16.5335 5.5573 16.2513 5.41349C15.9304 5.25 15.5104 5.25 14.6703 5.25H4.47031C3.63023 5.25 3.21019 5.25 2.88933 5.41349C2.60708 5.5573 2.37761 5.78677 2.2338 6.06901C2.07031 6.38988 2.07031 6.80992 2.07031 7.65V13.35C2.07031 14.1901 2.07031 14.6101 2.2338 14.931C2.37761 15.2132 2.60708 15.4427 2.88933 15.5865C3.21019 15.75 3.63023 15.75 4.47031 15.75Z" stroke="#1DE1D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
+
+  <symbol id="multiplication" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11 1L1 12.0143M1 1L11 12.0143" stroke="url(#paint0_linear_503_4763)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <defs>
+      <linearGradient id="paint0_linear_503_4763" x1="6.46212" y1="17.9106" x2="-2.70935" y2="13.0075" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#723AA9" />
+        <stop offset="1" stop-color="#1DE1D3" />
+      </linearGradient>
+    </defs>
+  </symbol>
+
+  <symbol id="bracket" width="19" height="162" viewBox="0 0 19 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.75 161H5C2.79086 161 1 159.209 1 157V5C1 2.79086 2.79086 1 5 1H17.75" stroke="url(#paint0_linear_503_4766)" stroke-width="1.5" stroke-linecap="round" />
+    <defs>
+      <linearGradient id="paint0_linear_503_4766" x1="18" y1="161" x2="18" y2="-9.00001" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#723AA9" />
+        <stop offset="1" stop-color="#1DE1D3" />
+      </linearGradient>
+    </defs>
+  </symbol>
+
+  <symbol id="bracket2" width="19" height="162" viewBox="0 0 19 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 161H13.75C15.9591 161 17.75 159.209 17.75 157V5C17.75 2.79086 15.9591 1 13.75 1H1" stroke="url(#paint0_linear_503_4767)" stroke-width="1.5" stroke-linecap="round" />
+    <defs>
+      <linearGradient id="paint0_linear_503_4767" x1="0.749998" y1="161" x2="0.75" y2="-9.00001" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#723AA9" />
+        <stop offset="1" stop-color="#1DE1D3" />
+      </linearGradient>
+    </defs>
+  </symbol>
+
+  <symbol id="evenly" width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 1.10156H19M1 8.81156H19" stroke="url(#paint0_linear_503_4768)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <defs>
+      <linearGradient id="paint0_linear_503_4768" x1="10.8318" y1="12.939" x2="3.48631" y2="2.84119" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#723AA9" />
+        <stop offset="1" stop-color="#1DE1D3" />
+      </linearGradient>
+    </defs>
+  </symbol>
+
+  <symbol id="evenlyBig" width="82" height="10" viewBox="0 0 82 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 1H81M1 8.71H81" stroke="url(#paint0_linear_503_4769)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <defs>
+      <linearGradient id="paint0_linear_503_4769" x1="44.697" y1="12.8374" x2="42.2356" y2="-2.20091" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#723AA9" />
+        <stop offset="1" stop-color="#1DE1D3" />
+      </linearGradient>
+    </defs>
+  </symbol>
+
+  <symbol id="navPoint" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="6" cy="6" r="5" fill="#EBEBF0" stroke="url(#paint0_linear_503_4869)" stroke-width="2" />
+    <defs>
+      <linearGradient id="paint0_linear_503_4869" x1="10" y1="6" x2="2" y2="6" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#723AA9" />
+        <stop offset="1" stop-color="#1DE1D3" />
+      </linearGradient>
+    </defs>
+  </symbol>
+
+  <symbol id="navPointActive" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="6" cy="6.5" r="5" fill="url(#paint0_linear_503_4878)" />
+    <circle cx="6" cy="6.5" r="5" stroke="#EBEBF0" stroke-width="2" />
+    <circle cx="6" cy="6.5" r="5" stroke="url(#paint1_linear_503_4878)" stroke-width="2" />
+    <defs>
+      <linearGradient id="paint0_linear_503_4878" x1="10" y1="6.5" x2="2" y2="6.5" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#723AA9" />
+        <stop offset="1" stop-color="#1DE1D3" />
+      </linearGradient>
+      <linearGradient id="paint1_linear_503_4878" x1="10" y1="6.5" x2="2" y2="6.5" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#723AA9" />
+        <stop offset="1" stop-color="#1DE1D3" />
+      </linearGradient>
+    </defs>
+  </symbol>
+
+  <symbol id="suitcase" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12.5703 5.25C12.5703 4.55252 12.5703 4.20378 12.4936 3.91766C12.2856 3.1412 11.6791 2.53472 10.9027 2.32667C10.6165 2.25 10.2678 2.25 9.57031 2.25C8.87283 2.25 8.52409 2.25 8.23797 2.32667C7.46151 2.53472 6.85503 3.1412 6.64698 3.91766C6.57031 4.20378 6.57031 4.55252 6.57031 5.25M4.47031 15.75H14.6703C15.5104 15.75 15.9304 15.75 16.2513 15.5865C16.5335 15.4427 16.763 15.2132 16.9068 14.931C17.0703 14.6101 17.0703 14.1901 17.0703 13.35V7.65C17.0703 6.80992 17.0703 6.38988 16.9068 6.06901C16.763 5.78677 16.5335 5.5573 16.2513 5.41349C15.9304 5.25 15.5104 5.25 14.6703 5.25H4.47031C3.63023 5.25 3.21019 5.25 2.88933 5.41349C2.60708 5.5573 2.37761 5.78677 2.2338 6.06901C2.07031 6.38988 2.07031 6.80992 2.07031 7.65V13.35C2.07031 14.1901 2.07031 14.6101 2.2338 14.931C2.37761 15.2132 2.60708 15.4427 2.88933 15.5865C3.21019 15.75 3.63023 15.75 4.47031 15.75Z" stroke="#1DE1D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
 </svg>

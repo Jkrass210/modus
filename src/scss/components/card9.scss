@@ -27,6 +27,14 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 120%;
+    text-align: center;
     color: var(--black);
+  }
+}
+@media (max-width: 1380px) {
+  .card9 {
+    &__desc{
+      font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+    }
   }
 }

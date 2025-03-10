@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Полезные материалы</title>
+  <link href="css/normalize.min.css" rel="stylesheet">
+  <link href="css/swiper-bundle.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+
+  <script src="js/swiper-bundle.min.js" defer></script>
+  <script src="js/fslightbox-min.js" defer></script>
+  <script src="js/d3-min.js" defer></script>
+  <script type="module" src="js/main-min.js"></script>
+</head>
+<body>
+  <header class="header default" id="header">
+  <div class="header__container container">
+    <div class="header__content">
+      <div class="logo">
+  <a class="logo__link" href="/">
+    <img class="logo__img" src="img/logo/Logo.svg">
+  </a>
+</div>
+      <nav class="header-nav" id="headerNav">
+  <ul class="header-nav__list list-reset">
+    <li>
+      <a href="#" class="header-nav__link">
+        Продукты
+      </a>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Преимущества
+      </a>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Кейсы
+      </a>
+    </li>
+    <li>
+      <div class="drop-down1">
+  <a href="#" class="drop-down1__btn btn-reset">
+    <span>Полезные материалы</span>
+    <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
+      <use xlink:href="img/sprite.svg#arrowDropDown1"></use>
+    </svg>
+  </a>
+  <ul class="drop-down1__list list-reset">
+    <li>
+      <a href="#" class="drop-down1__link">
+        База знаний
+      </a>
+    </li>
+    <li>
+      <a href="#" class="drop-down1__link">
+        Новости
+      </a>
+    </li>
+  </ul>
+</div>
+    </li>
+    <li>
+      <a href="#" class="header-nav__link">
+        Партнерство
+      </a>
+    </li>
+    <li>
+      <div class="drop-down1 drop-down1-2">
+  <a href="#" class="drop-down1__btn btn-reset">
+    <span>О компании</span>
+    <svg width="10" height="5" viewBox="0 0 10 5" fill="none">
+      <use xlink:href="img/sprite.svg#arrowDropDown1"></use>
+    </svg>
+  </a>
+  <ul class="drop-down1__list list-reset">
+    <li>
+      <a href="#" class="drop-down1__link">
+        Награды
+      </a>
+    </li>
+    <li>
+      <a href="#" class="drop-down1__link">
+        Рекомендательные письма
+      </a>
+    </li>
+    <li>
+      <a href="#" class="drop-down1__link">
+        Контакты
+      </a>
+    </li>
+  </ul>
+</div>
+    </li>
+    <!-- Контейнер для скрытых пунктов -->
+    <li class="menu__more hidden">
+      <button class="menu__toggle btn-reset">
+        ...
+      </button>
+      <ul class="menu__hidden list-reset"></ul>
+    </li>
+  </ul>
+  <div class="header-nav__mobile mobile-header">
+    <div class="mobile-header__top">
+      <a href="tel:+74951182814">+7 (495) 118-28-14</a>
+      <a href="mailto:post@modusbi.ru">post@modusbi.ru</a>
+    </div>
+    <div class="mobile-header__btn-group">
+      <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-канал
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+      <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-чат
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+      </a>
+    </div>
+  </div>
+</nav>
+      <div class="header__btn-group">
+        <div class="search1">
+  <button class="search1__btn btn-reset">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <use xlink:href="img/sprite.svg#search"></use>
+    </svg>
+  </button>
+  <div class="search1__box">
+    <div class="search1__container container">
+      <form class="search1__form">
+        <input class="default-input" type="text" placeholder="Поиск по Базе знаний Modus BI">
+        <button class="search1__sabmit btn-reset">
+          <span>Искать</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+        <div class="phone">
+  <button class="phone__btn btn-reset">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <use xlink:href="img/sprite.svg#phone"></use>
+    </svg>
+  </button>
+  <div class="phone__box">
+    <p>+79829923366</p>
+  </div>
+</div>
+        <div class="phone-mob">
+  <a href="tel:+79829926346" class="phone-mob__link">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <use xlink:href="img/sprite.svg#phone"></use>
+    </svg>
+  </a>
+</div>
+        <a class="order-demo btn-reset">
+  <span class="order-demo__text">Заказать демо</span>
+  <span class="order-demo__svg-box">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <use xlink:href="img/sprite.svg#demo"></use>
+    </svg>
+  </span>
+</a>
+      </div>
+    </div>
+  </div>
+</header>
+  <main class="main">
+    <section class="useful-materials-section-1 section">
+      <div class="useful-materials-section-1__container container">
+        <div class="useful-materials-section-1__default-background default-background">
+          <div class="useful-materials-section-1__content">
+            <h1 class="useful-materials-section-1__title page-title">
+              Все самое полезное – в одном месте
+            </h1>
+            <div class="useful-materials-section-1__box-desc">
+              <p>
+                На этой странице мы собрали все актуальные медиа-ресурсы Modus, чтобы вы всегда были в курсе последних событий.
+              </p>
+            </div>
+            <div class="box-news-company">
+  <h2 class="box-news-company section-title">
+    Новости компании
+  </h2>
+  <div class="box-cases">
+    <ul class="box-cases__list list-reset">
+      <li>
+        <div class="card13 card13-1">
+  <div class="card13__box-img">
+    <img src="img/box-cases/1.png" alt="img">
+  </div>
+  <div class="card13__box-info">
+    <h3 class="card13__title">
+      Релиз Modus BI 3.8: улучшение работы с группами визуализаций
+    </h3>
+    <p class="card13__desc">
+      На этой неделе выйдет новый релиз BI-платформы компании Modus. Изменения на портале
+    </p>
+    <data class="card13__data">
+      <time datetime="21.01.2025">21.01.2025</time>
+    </data>
+  </div>
+  <div class="card13__box-btn">
+    <a href="#" class="card13__link">
+      <span class="text">Подробнее</span>
+      <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+        <use xlink:href="img/sprite.svg#arrowMoreColor"></use>
+      </svg>
+    </a>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card13 card13-1">
+  <div class="card13__box-img">
+    <img src="img/box-cases/1.png" alt="img">
+  </div>
+  <div class="card13__box-info">
+    <h3 class="card13__title">
+      Релиз Modus BI 3.8: улучшение работы с группами визуализаций
+    </h3>
+    <p class="card13__desc">
+      На этой неделе выйдет новый релиз BI-платформы компании Modus. Изменения на портале Изменения на портале Изменения на портале Изменения на портале
+    </p>
+    <data class="card13__data">
+      <time datetime="21.01.2025">21.01.2025</time>
+    </data>
+  </div>
+  <div class="card13__box-btn">
+    <a href="#" class="card13__link">
+      <span class="text">Подробнее</span>
+      <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+        <use xlink:href="img/sprite.svg#arrowMoreColor"></use>
+      </svg>
+    </a>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card13 card13-1">
+  <div class="card13__box-img">
+    <img src="img/box-cases/1.png" alt="img">
+  </div>
+  <div class="card13__box-info">
+    <h3 class="card13__title">
+      Релиз Modus BI 3.8: улучшение работы с группами визуализаций
+    </h3>
+    <p class="card13__desc">
+      На этой неделе выйдет новый релиз BI-платформы компании Modus. На этой неделе выйдет новый релиз BI-платформы компании Modus. На этой неделе выйдет новый релиз BI-платформы компании Modus. Изменения на портале
+    </p>
+    <data class="card13__data">
+      <time datetime="21.01.2025">21.01.2025</time>
+    </data>
+  </div>
+  <div class="card13__box-btn">
+    <a href="#" class="card13__link">
+      <span class="text">Подробнее</span>
+      <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+        <use xlink:href="img/sprite.svg#arrowMoreColor"></use>
+      </svg>
+    </a>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card13 card13-1">
+  <div class="card13__box-img">
+    <img src="img/box-cases/1.png" alt="img">
+  </div>
+  <div class="card13__box-info">
+    <h3 class="card13__title">
+      Релиз Modus BI 3.8: улучшение работы с группами визуализаций
+    </h3>
+    <p class="card13__desc">
+      На этой неделе выйдет новый релиз BI-платформы компании Modus. Изменения на портале
+    </p>
+    <data class="card13__data">
+      <time datetime="21.01.2025">21.01.2025</time>
+    </data>
+  </div>
+  <div class="card13__box-btn">
+    <a href="#" class="card13__link">
+      <span class="text">Подробнее</span>
+      <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+        <use xlink:href="img/sprite.svg#arrowMoreColor"></use>
+      </svg>
+    </a>
+  </div>
+</div>
+      </li>
+    </ul>
+    <div class="box-cases__wrapp-btn">
+      <button class="box-cases__btn default-btn btn-reset">
+        <span class="text">
+          Ко всем новостям
+        </span>
+        <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+          <use xlink:href="img/sprite.svg#arrowDetailed"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="box-you-know__section section">
+  <div class="box-you-know__container container">
+    <h2 class="box-you-know__title">
+      А вы знали, что…
+    </h2>
+    <ul class="box-you-know__list list-reset">
+      <li>
+        <div class="card14">
+  <div class="card14__box-img">
+    <img src="img/box-you-know/top/1.svg" alt="img">
+  </div>
+  <div class="card14__box-desc">
+    <p>
+      В большинстве компаний более 70% информации, которая собирается в отчётах, не используется в дальнейшей аналитике
+    </p>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card14">
+  <div class="card14__box-img">
+    <img src="img/box-you-know/top/2.svg" alt="img">
+  </div>
+  <div class="card14__box-desc">
+    <p>
+      Безопасность данных в BI отличается от других систем и нужно знать, каким образом правильно её обеспечивать.
+    </p>
+  </div>
+</div>
+      </li>
+    </ul>
+    <div class="box-you-know__box-desc">
+      <p>Хотите знать больше о внедрении Data Driven подхода в управлении?</p>
+      <p>Подписывайтесь на наши тг-ресурсы и блоги!</p>
+    </div>
+    <ul class="box-you-know__list list-reset">
+      <li>
+        <div class="card15">
+  <div class="card15__box-top">
+    <img src="img/box-you-know/bottom/1.png" alt="img">
+  </div>
+  <div class="card15__box-bottom">
+    <div class="card15__left">
+      <h3 class="card15__title">
+        Modus на Habr
+      </h3>
+      <p class="card15__desc">
+        Всё о бизнес-аналитике и работе с данными с технической точки зрения.
+      </p>
+    </div>
+    <div class="card15__right">
+      <a href="#" class="card13__link">
+        <span class="text">Подписаться</span>
+        <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+          <use xlink:href="img/sprite.svg#arrowMoreColor"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card15">
+  <div class="card15__box-top">
+    <img src="img/box-you-know/bottom/2.png" alt="img">
+  </div>
+  <div class="card15__box-bottom">
+    <div class="card15__left">
+      <h3 class="card15__title">
+        Modus на VC
+      </h3>
+      <p class="card15__desc">
+        Всё о бизнес-аналитике и работе с данными с точки зрения управления и бизнеса.
+      </p>
+    </div>
+    <div class="card15__right">
+      <a href="#" class="card13__link">
+        <span class="text">Подписаться</span>
+        <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+          <use xlink:href="img/sprite.svg#arrowMoreColor"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card15">
+  <div class="card15__box-top">
+    <img src="img/box-you-know/bottom/3.png" alt="img">
+  </div>
+  <div class="card15__box-bottom">
+    <div class="card15__left">
+      <h3 class="card15__title">
+        TG-канал
+      </h3>
+      <p class="card15__desc">
+        Анонсы мероприятий, статей, видеообучения работе с продуктами и не только
+      </p>
+    </div>
+    <div class="card15__right">
+      <a href="#" class="card13__link">
+        <span class="text">Подписаться</span>
+        <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+          <use xlink:href="img/sprite.svg#arrowMoreColor"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+      </li>
+      <li>
+        <div class="card15">
+  <div class="card15__box-top">
+    <img src="img/box-you-know/bottom/4.png" alt="img">
+  </div>
+  <div class="card15__box-bottom">
+    <div class="card15__left">
+      <h3 class="card15__title">
+        Сообщество экпертов BI
+      </h3>
+      <p class="card15__desc">
+        Чат, в котором мы обсуждаем ваши вопросы и делимся опытом работы с Modus
+      </p>
+    </div>
+    <div class="card15__right">
+      <a href="#" class="card13__link">
+        <span class="text">Подписаться</span>
+        <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+          <use xlink:href="img/sprite.svg#arrowMoreColor"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="box-releases-1 box-releases__section section">
+  <div class="box-releases__container container">
+    <div class="box-releases__content">
+      <div class="box-releases__left">
+        <h2 class="box-releases__title">
+          База знаний Modus
+        </h2>
+        <p class="box-releases__desc">
+          Мы знаем, что во время работы с аналитическими системами (а особенно в самом начале) возникает много вопросов, поэтому сразу подготовили ответы на большинство из них. На странице Базы знаний вы найдёте подробные инструкции по работе с нашими решениями.
+        </p>
+        <div class="box-releases__btn-wrapp">
+          <button class="box-releases__btn default-btn btn-reset">
+            <span class="text">
+              Перейти в Базу знаний
+            </span>
+            <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+              <use xlink:href="img/sprite.svg#know"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <img class="box-releases__img" src="img/box-releases/2.png" alt="img">
+    </div>
+  </div>
+</section>
+    <section class="box-technical__section section">
+  <div class="box-technical__container container">
+    <div class="box-technical__content">
+      <img class="box-technical__img" src="img/box-technical/1.png" alt="img">
+      <div class="box-technical__right">
+        <h2 class="box-technical__title">
+          Техподдержка Modus
+        </h2>
+        <div class="box-technical__box-desc">
+          <p>Бывает такое, что ответ не нашелся даже в Базе знаний. Если так случилось, пожалуйста, направьте свой вопрос на почту: <a href="mailto:112@modusbi.ru">112@modusbi.ru</a></p>
+          <p>Наши специалисты свяжутся с вами в течение 1 рабочего дня и помогут разобраться в возникшей проблеме. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="box-training__section section">
+  <div class="box-training__container container">
+    <div class="box-training__content">
+      <div class="box-training__left">
+        <h2 class="box-training__title">
+          Запись на обучение
+        </h2>
+        <div class="box-training__box-desc">
+          <p>Мы всегда готовы провести обучение по нашим продуктам, наглядно продемонстрировать возможности аналитических решений  и разобрать конкретные практические кейсы, которые у вас возникают.</p>
+          <p>Для того, чтобы записаться на обучение, заполните форму по ссылке ниже.</p>
+        </div>
+        <div class="box-training__btn-wrapp">
+          <button class="box-training__btn default-btn btn-reset">
+            <span class="text">
+              Записаться на обучение
+            </span>
+            <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
+              <use xlink:href="img/sprite.svg#sign"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <img class="box-training__img" src="img/box-training/1.png" alt="img">
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer" id="footer">
+  <div class="footer-top-box">
+  <div class="footer-top-box__container container">
+    <div class="footer-top-box__left left">
+      <form class="left__form">
+        <h3 class="left__form-title">
+          Есть вопросы? Спросите нас!
+        </h3>
+        <input class="default-input" type="text" name="fio" placeholder="ФИО*">
+        <input class="default-input" type="text" name="company" placeholder="Компания*">
+        <input class="default-input" type="text" name="business-mail" placeholder="Рабочая почта*">
+        <input class="default-input" type="text" name="business-mail" placeholder="Телефон">
+        <div class="drop-down2">
+  <input class="default-input" type="text" name="product" placeholder="Какой продукт Вас заинтересовал?*">
+  <button class="drop-down2__btn btn-reset">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+      <use xlink:href="img/sprite.svg#arrowDropDown2"></use>
+    </svg>
+  </button>
+  <ul class="drop-down2__list list-reset">
+    <li class="drop-down2__item">fffffff</li>
+    <li class="drop-down2__item">33333333 sddv srrgs sefew</li>
+    <li class="drop-down2__item">ddddd sdvs sefwev seegweg seegwg srgewr</li>
+  </ul>
+</div>
+        <textarea class="default-textarea"  placeholder="Кратко опишите свой вопрос" style="resize: none;"></textarea>
+        <div class="left__group">
+          <div class="checkbox1">
+  <label class="checkbox1__label">
+    <input type="checkbox" name="personal_data">
+    <span class="checkbox1__castom">
+      <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.5 4L4.5 7L10.5 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </span>
+    <span class="checkbox1__text">Я согласен на <a href="#">обработку персональных данных</a></span>
+  </label>
+</div>
+          <button class="form-submit btn-reset disabled">
+  <span class="form-submit__text">Отправить</span>
+  <svg width="24" height="23" viewBox="0 0 24 23" fill="none">
+    <use xlink:href="img/sprite.svg#arrowSubmit"></use>
+  </svg>
+</button>
+        </div>
+      </form>
+    </div>
+    <div class="footer-top-box__right right">
+      <img class="right__img" src="img/footer/top/img-form.png">
+    </div>
+  </div>
+</div>
+  <div class="footer-centr-box">
+  <div class="footer-centr-box__container container">
+    <div class="footer-centr-box__left left">
+      <h3 class="left__title">
+        Контакты
+      </h3>
+      <ul class="left__list list-reset">
+        <li>
+          <div class="left__info-box">
+            <h4>Компания</h4>
+            <a href="tel:+74951182814">+7 (495) 118-28-14</a>
+            <a href="mailto:post@modusbi.ru">post@modusbi.ru</a>
+          </div>
+        </li>
+        <li>
+          <div class="left__info-box">
+            <h4>Компания</h4>
+            <a href="tel:+74951182814">+7 (495) 118-28-14</a>
+            <a href="mailto:post@modusbi.ru">post@modusbi.ru</a>
+          </div>
+        </li>
+        <li>
+          <div class="left__info-box">
+            <h4>Реквизиты</h4>
+            <address>
+              <p>ООО «БиАй Про», 115114, г Москва, 2-й Кожевнический переулок, д. 12, стр. 2</p>
+            </address>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-centr-box__right right">
+      <div class="right__group">
+        <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-канал
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+        <a href="#" class="btn-tg">
+  <span class="btn-tg__text">
+    Telegram-чат
+  </span>
+  <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+    <use xlink:href="img/sprite.svg#tg"></use>
+  </svg>
+</a>
+      </div>
+      <p class="right__desc">
+        Подпишись и узнавай первым о новостях продуктов Modus
+      </p>
+      <div class="right__box-blog">
+        <h3>Наши блоги</h3>
+        <ul class="list-reset">
+          <li>
+            <a href="#">
+              <span class="img-box">
+                <img src="img/footer/centr/blog-1.png">
+              </span>
+              <span class="text">
+                Habr
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="img-box">
+                <img src="img/footer/centr/blog-2.png">
+              </span>
+              <span class="text">
+                VC
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="footer-bottom-box">
+  <div class="footer-bottom-box__container container">
+    <ul class="footer-bottom-box__list-top list-reset">
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Modus BI</a>
+          </li>
+          <li>
+            <a href="#">Modus ETL</a>
+          </li>
+          <li>
+            <a href="#">Modus BI Cloud</a>
+          </li>
+          <li>
+            <a href="#">Преимущества</a>
+          </li>
+          <li>
+            <a href="#">Кейсы</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Партнёрство</a>
+          </li>
+          <li>
+            <a href="#">Внедрение с помощью партнёров</a>
+          </li>
+          <li>
+            <a href="#">Как стать партнёром</a>
+          </li>
+          <li>
+            <a href="#">Личный кабинет партнёра</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Промышленность</a>
+          </li>
+          <li>
+            <a href="#">E-commerce</a>
+          </li>
+          <li>
+            <a href="#">Ритейл и FMGG</a>
+          </li>
+          <li>
+            <a href="#">Госкомпании</a>
+          </li>
+          <li>
+            <a href="#">Финтех</a>
+          </li>
+          <li>
+            <a href="#">Медицина</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-bottom-box__item">
+        <ul class="footer-bottom-box__list list-reset">
+          <li>
+            <a href="#">Полезные материалы</a>
+          </li>
+          <li>
+            <a href="#">База знаний</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p class="footer-bottom-box__desc">
+      © ООО «БиАй Про», актуальный год. Все права защищены.
+    </p>
+  </div>
+</div>
+</footer>
+</body>
+</html>

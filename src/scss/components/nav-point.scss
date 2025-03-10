@@ -1,0 +1,57 @@
+.nav-point {
+  position: relative;
+  display: flex;
+  &__link {
+    //padding: 9px 0;
+    display: flex;
+    transition: padding 0.4s ease-in-out;
+    &.active {
+      .svg-default {
+        display: none;
+      }
+      .svg-active {
+        display: block;
+      }
+    }
+    .svg-active {
+      display: none;
+    }
+    &:focus,&:focus-visible {
+      outline: none;
+    }
+    &:focus-visible,&:hover,&:active {
+      padding: 9px 0;
+      & + .nav-point__hidden {
+        z-index: 4;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+  &__hidden {
+    pointer-events: none;
+    position: absolute;
+    right: -14px;
+    display: flex;
+    z-index: 0;
+    visibility: hidden;
+    opacity: 0;
+    align-items: center;
+    gap: 30px;
+    border-radius: 8px;
+    padding: 6px 14px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 6px 6px 0 rgba(0, 0, 0, 0.03), 0 13px 8px 0 rgba(0, 0, 0, 0.02), 0 23px 9px 0 rgba(0, 0, 0, 0.01), 0 36px 10px 0 rgba(0, 0, 0, 0);
+    background-color: var(--white);
+    transition: visibility 0.4s ease-in-out, opacity 0.4s ease-in-out, z-index 0.4 ease-in-out;
+    p {
+      white-space: nowrap;
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      color: var(--black);
+    }
+    svg {
+      min-width: 12px;
+    }
+  }
+}

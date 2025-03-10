@@ -6,6 +6,8 @@ import { dropDown3 } from './module/dropDown3.js';
 import { observeSvgChart, svgChart } from './module/svgChart.js';
 import { counter } from './module/counter.js';
 import { dropDown4 } from './module/dropDown4.js';
+import { scroll } from './module/scroll.js';
+import { navPoint } from './module/navPoint.js';
 
 /*if (document.querySelector('#headerNav')){
   menu()
@@ -99,4 +101,12 @@ if (document.querySelectorAll('.box-in-numbers__list') && document.querySelector
 
 if (document.querySelectorAll('.drop-down4')) {
   dropDown4();
+}
+
+if (document.querySelectorAll('a[href^="#"]')){
+  scroll()
+}
+
+if (document.querySelectorAll(".nav-point__link")){
+  navPoint()
 }

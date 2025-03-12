@@ -19,3 +19,18 @@
     }
   }
 }
+@media (max-width: 950px) {
+  .card3 {
+    gap: 30px;
+    &__box-img {
+      img {
+        height: 56px;
+      }
+    }
+    &__box-info {
+      h3 {
+        font-size: 22px;
+      }
+    }
+  }
+}

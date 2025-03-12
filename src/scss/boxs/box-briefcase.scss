@@ -18,3 +18,13 @@
     }
   }
 }
+
+@media (max-width: 950px) {
+  .box-briefcase {
+    &__list {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 40px;
+    }
+  }
+}

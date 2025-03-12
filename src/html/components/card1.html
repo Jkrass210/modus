@@ -11,7 +11,11 @@
         @@price
       </p>
     </div>
-    <img class="card1__img" src="@@urlImg">
+    <picture>
+      <source srcset="@@urlImg1" media="(max-width: 950px)">
+      <img class="card1__img" src="@@urlImg" alt="img">
+    </picture>
+    <!--<img class="card1__img" src="@@urlImg">-->
   </div>
   <a href="#" class="default-link card1__link">
     <span class="text">

@@ -70,3 +70,45 @@
     }
   }
 }
+
+@media (max-width: 1115px) {
+  .box-modus-platform {
+    &__content {
+      min-height: 962px;
+    }
+    &__list-wrapp {
+      gap: 20px;
+      flex-direction: column;
+    }
+    &__list {
+      gap: 20px;
+      &.list-1 {
+        li:nth-child(1) {
+          padding: 0;
+        }
+        li:nth-child(3) {
+          padding: 0;
+        }
+      }
+      &.list-2 {
+        li:nth-child(2) {
+          padding: 0;
+        }
+        li:nth-child(3) {
+          padding: 0;
+        }
+      }
+    }
+    &__img {
+      bottom: 190px;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .box-modus-platform {
+    &__content {
+      padding: 60px 30px;
+    }
+  }
+}

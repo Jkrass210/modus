@@ -15,9 +15,35 @@
     gap: clamp(7px, 2vw, 30px);
   }
 }
-@media (max-width: 1030px) {
+@media (max-width: 1115px) {
   .header{
     position: relative;
     z-index: 4;
+  }
+}
+@media (max-width: 950px) {
+  .header {
+    &__btn-group {
+      gap: 14px;
+    }
+  }
+}
+@media (max-width: 620px) {
+  .header {
+    padding: 10px 0 20px;
+    &__btn-group {
+      gap: 24px;
+      &.active {
+        .search1 {
+          display: none;
+        }
+        .phone-mob {
+          display: none;
+        }
+        .order-demo {
+          display: flex;
+        }
+      }
+    }
   }
 }

@@ -1,5 +1,6 @@
 export function scroll() {
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  const box = document.querySelector('.box-nav-become-partner');
+  box.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function (e) {
         e.preventDefault();
   

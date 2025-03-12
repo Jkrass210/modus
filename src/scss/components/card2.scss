@@ -27,3 +27,22 @@
     color: var(--black);
   }
 }
+@media (max-width: 950px) {
+  .card2 {
+    &__box-img {
+      margin-bottom: 30px;
+      img {
+        max-height: 56px;
+      }
+    }
+    &__box-info {
+      gap: 16px;
+    }
+    &__title {
+      font-size: 22px;
+    }
+    &__desc {
+      font-size: 16px;
+    }
+  }
+}

@@ -36,3 +36,12 @@
     }
   }
 }
+@media (max-width: 620px) {
+  .order-demo {
+    padding: 3px 3px 3px 10px;
+    display: none;
+    &__svg-box {
+      padding: 4px;
+    }
+  }
+}

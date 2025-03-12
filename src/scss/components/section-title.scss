@@ -6,3 +6,10 @@
   font-size: 48px;
   color: var(--black);
 }
+
+@media (max-width: 950px) {
+  .section-title {
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+}

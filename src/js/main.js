@@ -8,6 +8,8 @@ import { counter } from './module/counter.js';
 import { dropDown4 } from './module/dropDown4.js';
 import { scroll } from './module/scroll.js';
 import { navPoint } from './module/navPoint.js';
+import { toggleMenu } from './module/toggleMenu.js';
+import { initDropDown1 } from './module/initDropDown1.js';
 
 /*if (document.querySelector('#headerNav')){
   menu()
@@ -61,10 +63,11 @@ if (document.querySelectorAll('.box-swiper')){
     const nextButton = swiperContainer.querySelector(".box-swiper__next");
     const prevButton = swiperContainer.querySelector(".box-swiper__prev");
 
-    const slidesPerView = swiperContainer.classList.contains("slide-4") ? 4 : 5;
+    //const slidesPerView = swiperContainer.classList.contains("slide-4") ? 4 : 5;
+    const defaultSlides = swiperContainer.classList.contains("slide-4") ? 4 : 5;
 
     new Swiper(swiperElement, {
-      slidesPerView: slidesPerView,
+      slidesPerView: 1,
       spaceBetween: 20,
       /*effect: 'fade', // Меняем эффект слайдов на исчезновение/появление
       fadeEffect: {
@@ -78,6 +81,11 @@ if (document.querySelectorAll('.box-swiper')){
       navigation: {
         nextEl: prevButton,
         prevEl: nextButton,
+      },
+      breakpoints: {
+        950: { slidesPerView: defaultSlides, spaceBetween: 14, }, // От 951px и выше - 4 или 5 слайдов
+        640: { slidesPerView: 3, spaceBetween: 14, }, // От 640px и ниже - 2 слайда
+        450: { slidesPerView: 2, spaceBetween: 14, }  // От 450px и ниже - 1 слайд
       },
     });
   });
@@ -103,10 +111,23 @@ if (document.querySelectorAll('.drop-down4')) {
   dropDown4();
 }
 
-if (document.querySelectorAll('a[href^="#"]')){
+if (document.querySelector(".become-partner-section-1__section")){
   scroll()
 }
 
 if (document.querySelectorAll(".nav-point__link")){
   navPoint()
+}
+
+if (document.querySelector('#burger')) {
+  toggleMenu('burger', true, 'header__btn-group');
+}
+
+if (document.querySelector('.drop-down1')) {
+  if (window.innerWidth <= 1115) {
+    initDropDown1();
+    window.addEventListener("resize", function () {
+    initDropDown1();
+  });
+  }
 }

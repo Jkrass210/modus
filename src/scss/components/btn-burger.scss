@@ -1,12 +1,15 @@
 .btn-burger {
+  display: none;
   width: 40px;
   min-width: 40px;
   height: 40px;
   border-radius: 10px;
   background-color: var(--accent-1);
-  display: flex;
   align-items: center;
   justify-content: center;
+  &:focus,&:focus-visible {
+    outline: none;
+  }
   &__wrapp {
     padding: 5px 2px;
     width: 16px;
@@ -38,5 +41,18 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1115px) {
+  .btn-burger {
+    display: flex;
+  }
+}
+@media (max-width: 620px) {
+  .btn-burger {
+    width: 34px;
+    min-width: 34px;
+    height: 34px;
   }
 }

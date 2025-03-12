@@ -23,3 +23,10 @@
     color: var(--white);
   }
 }
+@media (max-width: 1115px) {
+  .btn-tg {
+    &__text {
+      font-size: 16px;
+    }
+  }
+}

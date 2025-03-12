@@ -20,3 +20,25 @@
     display: flex;
   }
 }
+@media (max-width: 950px) {
+  .phone-mob {
+    &__link {
+      svg {
+        width: 20px;
+        min-width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 620px) {
+  .phone-mob {
+    &__link {
+      svg {
+        width: 16px;
+        min-width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}

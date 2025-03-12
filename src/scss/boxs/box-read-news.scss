@@ -58,3 +58,21 @@
     }
   }
 }
+@media (max-width: 950px) {
+  .box-read-news {
+    &__content {
+      padding: 30px;
+      .left {
+        max-width: 476px;
+        width: 100%;
+        &__title {
+          margin-bottom: 20px;
+          font-size: 40px;
+        }
+        &__desc {
+          margin-bottom: 44px;
+        }
+      }
+    }
+  }
+}

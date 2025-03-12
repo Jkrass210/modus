@@ -71,3 +71,15 @@
     }
   }
 }
+@media (max-width: 950px) {
+  .card6 {
+    min-height: 400px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: calc(100 / 600 * 100%);
+    padding-right: calc(100 / 600 * 100%);
+    &__bottom {
+      justify-content: start;
+    }
+  }
+}

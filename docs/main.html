@@ -22,7 +22,7 @@
     <img class="logo__img" src="img/logo/Logo.svg">
   </a>
 </div>
-      <nav class="header-nav" id="headerNav">
+      <nav class="header-nav" id="headerNav" id-btn-open="burger">
   <ul class="header-nav__list list-reset">
     <li>
       <a href="#" class="header-nav__link">
@@ -173,7 +173,7 @@
     </svg>
   </span>
 </a>
-        <button class="btn-burger btn-reset">
+        <button class="btn-burger btn-reset" id="burger">
   <span class="btn-burger__wrapp">
     <span></span>
     <span></span>
@@ -433,7 +433,11 @@
         от 1 000 000 ₽
       </p>
     </div>
-    <img class="card1__img" src="img/main/briefcase/1.png">
+    <picture>
+      <source srcset="img/main/briefcase/1(950).png" media="(max-width: 950px)">
+      <img class="card1__img" src="img/main/briefcase/1.png" alt="img">
+    </picture>
+    <!--<img class="card1__img" src="img/main/briefcase/1.png">-->
   </div>
   <a href="#" class="default-link card1__link">
     <span class="text">
@@ -459,7 +463,11 @@
         от 1 000 000 ₽
       </p>
     </div>
-    <img class="card1__img" src="img/main/briefcase/2.png">
+    <picture>
+      <source srcset="img/main/briefcase/2(950).png" media="(max-width: 950px)">
+      <img class="card1__img" src="img/main/briefcase/2.png" alt="img">
+    </picture>
+    <!--<img class="card1__img" src="img/main/briefcase/2.png">-->
   </div>
   <a href="#" class="default-link card1__link">
     <span class="text">
@@ -485,7 +493,11 @@
         Бесплатно
       </p>
     </div>
-    <img class="card1__img" src="img/main/briefcase/3.png">
+    <picture>
+      <source srcset="img/main/briefcase/3(950).png" media="(max-width: 950px)">
+      <img class="card1__img" src="img/main/briefcase/3.png" alt="img">
+    </picture>
+    <!--<img class="card1__img" src="img/main/briefcase/3.png">-->
   </div>
   <a href="#" class="default-link card1__link">
     <span class="text">
@@ -1072,7 +1084,11 @@
           </svg>
         </a>
       </div>
-      <img src="img/box-read-news/1-1.png">
+      <picture>
+        <source srcset="img/box-read-news/1-1(950).png" media="(max-width: 950px)">
+        <img src="img/box-read-news/1-1.png">
+      </picture>
+      <!--<img src="img/box-read-news/1-1.png">-->
     </div>
   </div>
 </section>

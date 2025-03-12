@@ -14,3 +14,12 @@
     padding-bottom: 10px;
   }
 }
+@media (max-width: 620px) {
+  .logo {
+    min-width:auto;
+    max-width: 79px;
+    &__img {
+      padding-bottom: 0;
+    }
+  }
+}

@@ -58,3 +58,25 @@
     }
   }
 }
+@media (max-width: 950px) {
+  .search1 {
+    &__btn {
+      svg {
+        width: 20px;
+        min-width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 620px) {
+  .search1 {
+    &__btn {
+      svg {
+        width: 16px;
+        min-width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}

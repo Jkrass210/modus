@@ -7,3 +7,18 @@
     box-sizing: border-box;
   }
 }
+
+@media (max-width: 950px) {
+  .main-swiper {
+    margin-bottom: 260px;
+    .btn-swiper {
+      top: 70%;
+      &.left {
+        left: 30px;
+      }
+      &.right {
+        right: 30px;
+      }
+    }
+  }
+}

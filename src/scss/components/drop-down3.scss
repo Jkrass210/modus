@@ -59,3 +59,10 @@
     color: var(--black);
   }
 }
+@media (max-width: 950px) {
+  .drop-down3 {
+    &__btn {
+      white-space: wrap;
+    }
+  }
+}

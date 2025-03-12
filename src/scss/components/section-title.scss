@@ -13,3 +13,11 @@
     font-size: 40px;
   }
 }
+
+@media (max-width: 620px) {
+  .section-title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 110%;
+  }
+}

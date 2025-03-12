@@ -67,3 +67,28 @@
     }
   }
 }
+@media (max-width: 620px) {
+  .footer-top-box {
+    padding: 60px 0 0;
+    background-image: url("../img/footer/top/beac(620).png");
+    &__container {
+      .left {
+        &__form-title {
+          font-size: 20px;
+          margin-bottom: 24px;
+        }
+        &__form {
+          gap: 16px;
+          margin-bottom: 60px;
+          .form-submit {
+            max-width: 100%;
+          }
+        }
+        &__group {
+          padding-top: 0;
+          gap: 40px;
+        }
+      }
+    }
+  }
+}

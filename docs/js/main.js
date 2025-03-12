@@ -84,8 +84,8 @@ if (document.querySelectorAll('.box-swiper')){
       },
       breakpoints: {
         950: { slidesPerView: defaultSlides, spaceBetween: 14, }, // От 951px и выше - 4 или 5 слайдов
-        640: { slidesPerView: 3, spaceBetween: 14, }, // От 640px и ниже - 2 слайда
-        450: { slidesPerView: 2, spaceBetween: 14, }  // От 450px и ниже - 1 слайд
+        690: { slidesPerView: 3, spaceBetween: 14, }, // От 640px и ниже - 2 слайда
+        550: { slidesPerView: 2, spaceBetween: 14, }  // От 450px и ниже - 1 слайд
       },
     });
   });

@@ -66,3 +66,24 @@
     }
   }
 }
+@media (max-width: 620px) {
+  .drop-down3 {
+    max-width: 100%;
+    display: block;
+    &__btn {
+      padding: 20px 16px 20px 41px;
+      width: 100%;
+      min-width: auto;
+      gap: 10px;
+      .text {
+        text-align: start;
+        font-size: 14px;
+        line-height: 140%;
+      }
+    }
+    &__desc {
+      font-size: 16px;
+      line-height: 140%;
+    }
+  }
+}

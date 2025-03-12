@@ -34,3 +34,13 @@
     }
   }
 }
+@media (max-width: 650px) {
+  .card3 {
+    padding: 30px;
+    &__box-info {
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
+}

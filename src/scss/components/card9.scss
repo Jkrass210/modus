@@ -20,6 +20,8 @@
     font-weight: 600;
     font-size: 24px;
     text-align: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
     color: var(--black);
   }
   &__desc {
@@ -28,6 +30,8 @@
     font-size: 18px;
     line-height: 120%;
     text-align: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
     color: var(--black);
   }
 }
@@ -35,6 +39,27 @@
   .card9 {
     &__desc{
       font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+    }
+  }
+}
+@media (max-width: 950px) {
+  .card9 {
+    &__title {
+      font-size: 22px
+    }
+    &__desc{
+      font-size: 16px;
+    }
+  }
+}
+@media (max-width: 620px) {
+  .card9 {
+    &__title {
+      font-size: 18px
+    }
+    &__desc{
+      font-size: 16px;
+      line-height: 140%;
     }
   }
 }

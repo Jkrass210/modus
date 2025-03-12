@@ -19,6 +19,8 @@
     font-size: 18px;
     line-height: 120%;
     text-align: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
     color: var(--black);
   }
 }
@@ -26,6 +28,15 @@
   .card7 {
     &__title {
       font-size: calc(16px + (18 - 16) * ((100vw - 1240px) / (1440 - 1240)));
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .card7 {
+    &__title {
+      font-size: 18px;
+      line-height: 120%;
     }
   }
 }

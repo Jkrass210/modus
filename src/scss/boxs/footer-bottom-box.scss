@@ -54,3 +54,17 @@
     }
   }
 }
+@media (max-width: 950px) {
+  .footer-bottom-box {
+    padding: 60px 0 20px;
+    &__list-top {
+      margin-bottom: 60px;
+      grid-template-columns: 1fr;
+    }
+    &__desc {
+      font-size: 14px;
+      line-height: 140%;
+    }
+  }
+  
+}

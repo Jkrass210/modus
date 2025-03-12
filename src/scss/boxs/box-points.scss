@@ -111,8 +111,45 @@
 }
 @media (max-width: 620px) {
   .box-points {
+    transform: translate(-50%, -100px);
+    max-width: calc(260 / 340 * 100%);
     &__list {
       grid-template-columns: 1fr;
+      li:first-child {
+        padding: 0;
+        padding-bottom: 24px;
+        &::after {
+          height: 1px;
+          width: 100%;
+          top: auto;
+          bottom: 0;
+        }
+      }
+      li:nth-child(2) {
+        padding: 0;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        &::after {
+          width: 100%;
+        }
+      }
+      li:nth-child(3) {
+        padding: 0;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        &::after {
+          top: auto;
+          bottom: 0;
+          width: 100%;
+        }
+      }
+      li:last-child {
+        padding: 0;
+        padding-top: 24px;
+        &::after {
+          display: none;
+        }
+      }
     }
   }
 }

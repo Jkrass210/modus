@@ -91,3 +91,28 @@
     }
   }
 }
+@media (max-width: 620px) {
+  .card1 {
+    min-width: auto;
+    &__top-wrapp {
+      padding: 20px;
+    }
+    &__title {
+      margin-bottom: 9px;
+      font-size: 20px;
+    }
+    &__desc {
+      margin-bottom: 14px;
+      font-size: 16px;
+      line-height: 140%;
+    }
+    &__price {
+      font-size: 18px;
+    }
+
+
+    &__link {
+      max-width: 100%;
+    }
+  }
+}

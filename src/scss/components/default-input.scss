@@ -17,3 +17,10 @@
     border-color: var(--input);
   }
 }
+@media (max-width: 620px) {
+  .default-input {
+    font-size: 14px;
+    line-height: 140%;
+    padding: 20px 19px;
+  }
+}

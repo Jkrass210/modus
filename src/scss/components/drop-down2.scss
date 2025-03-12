@@ -56,3 +56,11 @@
     }
   }
 }
+@media (max-width: 620px) {
+  .drop-down2 {
+    &__list{
+      font-size: 14px;
+      line-height: 140%;
+    }
+  }
+}

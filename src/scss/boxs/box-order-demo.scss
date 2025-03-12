@@ -84,3 +84,19 @@
     }
   }
 }
+@media (max-width: 620px) {
+  .box-order-demo {
+    &__section {
+      background-size: 100px 100%, 100px 100%;
+    }
+    &__title {
+      padding: 0 20px;
+    }
+    &__desc {
+      padding: 0 20px;
+    }
+    &__btn {
+      max-width: 100%;
+    }
+  }
+}

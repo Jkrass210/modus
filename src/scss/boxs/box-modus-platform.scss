@@ -112,3 +112,21 @@
     }
   }
 }
+@media (max-width: 620px) {
+  .box-modus-platform {
+    &__content {
+      padding: 30px 20px;
+    }
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__list {
+      li {
+        width: 100%;
+      }
+    }
+    &__img {
+      bottom: 282px;
+    }
+  }
+}

@@ -43,8 +43,32 @@
 }
 @media (max-width: 950px) {
   .box-swiper {
+    &__content {
+      &.slide-4 {
+        .box-swiper__swiper {
+          max-width: calc(520 / 600 * 100%);
+        }
+      }
+    }
     &__swiper {
-      max-width: 800px;
+      max-width: calc(480 / 600 * 100%);
+    }
+  }
+}
+@media (max-width: 620px) {
+  .box-swiper {
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__content {
+      &.slide-4 {
+        .box-swiper__swiper {
+          max-width: calc(240 / 300 * 100%);
+        }
+      }
+    }
+    &__swiper {
+      max-width: calc(200 / 300 * 100%);
     }
   }
 }

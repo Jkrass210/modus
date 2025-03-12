@@ -25,3 +25,14 @@
     
   }
 }
+@media (max-width: 620px) {
+  .box-why {
+    &__list {
+      margin-bottom: 33px;
+      grid-template-columns: 1fr;
+    }
+    &__btn {
+      max-width: 100%;
+    }
+  }
+}
